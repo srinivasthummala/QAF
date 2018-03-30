@@ -1,0 +1,35 @@
+18:44:02 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:44:02 loading BDD file: scenarios/test.bdd
+18:44:02 total test found: 1
+18:44:03 
+
+Executing scenario: testOrbitz - end to end
+18:44:03 pkg: com.qmetry.qaf.automation.step
+18:44:03 pkg: com.orbitz.tests
+18:44:03 Found duplicate step to load [] with [lower] prority then []
+18:44:03 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:44:03 Competed scenario: testOrbitz with status FAILURE
+18:44:48 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:44:48 loading BDD file: scenarios/test.bdd
+18:44:48 total test found: 1
+18:44:48 
+
+Executing scenario: testOrbitz - end to end
+18:44:48 pkg: com.qmetry.qaf.automation.step
+18:44:48 pkg: com.orbitz.steps
+18:44:49 Found duplicate step to load [] with [lower] prority then []
+18:44:49 Invoking Teststep: Given open browser
+18:45:32 Completed Teststep: Given open browser
+18:45:32 Invoking Teststep: When click on flights
+18:45:32 Invoking Teststep: click on {loc} with arguments: [id.flights.flightshomepage]
+18:45:38 Completed Teststep: click on {loc} with arguments: [id.flights.flightshomepage]
+18:45:38 Completed Teststep: When click on flights
+18:45:38 Competed scenario: testOrbitz with status SUCESS

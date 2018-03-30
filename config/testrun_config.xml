@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QAS Demo" verbose="0">
+
+	<!-- <parameter name="driver.name" value="firefoxDriver" /> -->
+	
+	<test name="BDD Test" enabled="true">
+		<classes>
+			<class name="com.orbitz.steps.FlightsPageSteps"></class>
+		</classes>
+	</test>
+	
+	<test name="Code Driven Test" enabled="true">
+		<classes>
+			<class name="com.orbitz.tests.FlightsPageTestCase_101"></class>
+		</classes>
+	</test>
+
+	<test name="KWD Test" enabled="false">
+		<classes>
+			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory"></class>
+		</classes>
+	</test>
+
+
+</suite>

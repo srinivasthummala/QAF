@@ -1,0 +1,242 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 8420
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1152
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlights",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.5896897915807586-1",
+          "subLogs": [],
+          "duration": 184
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.5896897915807586-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 337
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickFlightsOnly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tab-flight-tab, using=id}"
+          ],
+          "result": "id: 0.5896897915807586-2",
+          "subLogs": [],
+          "duration": 2430
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: tab-flight-tab",
+            "{\"id\":\"0.5896897915807586-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 136
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOneWay",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-type-one-way-label, using=id}"
+          ],
+          "result": "id: 0.5896897915807586-3",
+          "subLogs": [],
+          "duration": 35
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-type-one-way-label",
+            "{\"id\":\"0.5896897915807586-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 148
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterOriginAndDestination",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.5896897915807586-4",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.5896897915807586-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 100
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "And And enter departing date for one way booking",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And And click on Search",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Then verify search results",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Given command to open broswer",
+      "type": "TestStepPass",
+      "duration": 12975,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When When the user is on homepage click on flights",
+      "type": "TestStepPass",
+      "duration": 550,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on flights only",
+      "type": "TestStepPass",
+      "duration": 2571,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on one way",
+      "type": "TestStepPass",
+      "duration": 189,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is booking one way enter origin and destination",
+      "type": "TestStepFail",
+      "screenshot": "test-results/13_Feb_2018_02_37_PM/img/testOrbitz_ifi2dcp6xkvm64951.png",
+      "duration": 131,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And enter departing date for one way booking",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And click on Search",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Then verify search results",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.IllegalMonitorStateException\r\n\tat .And And when the user is booking one way enter origin and destination(scenarios/test.bdd:10)\r\n\tat java.lang.Object.wait(Native Method)\r\n\tat com.orbitz.utils.FlightsPageData.dataForFlightsOriginDestination(FlightsPageData.java:34)\r\n\tat com.orbitz.steps.FlightsPageSteps.enterOriginAndDestination(FlightsPageSteps.java:67)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

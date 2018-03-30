@@ -1,0 +1,86 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 24654
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlights",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[id.flights.flightshomepage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=primary-header-flight, using=id}"
+              ],
+              "result": "id: 0.15452436515896784-1",
+              "subLogs": [],
+              "duration": 360
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: primary-header-flight",
+                "{\"id\":\"0.15452436515896784-1\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 5537
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given open browser",
+      "type": "TestStepPass",
+      "duration": 43823,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When click on flights",
+      "type": "TestStepPass",
+      "duration": 6102,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'id.flights.flightshomepage'",
+          "type": "TestStepPass",
+          "duration": 6092,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

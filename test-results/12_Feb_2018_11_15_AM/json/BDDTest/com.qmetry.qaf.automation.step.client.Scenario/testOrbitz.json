@@ -1,0 +1,207 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 9077
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1139
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlights",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.3962075067430437-1",
+          "subLogs": [],
+          "duration": 6460
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.3962075067430437-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 5147
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickFlightsOnly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tab-flight-tab, using=id}"
+          ],
+          "result": "id: 0.3962075067430437-2",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: tab-flight-tab",
+            "{\"id\":\"0.3962075067430437-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 165
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOneWay",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-type-one-way-label, using=id}"
+          ],
+          "result": "id: 0.3962075067430437-3",
+          "subLogs": [],
+          "duration": 25
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-type-one-way-label",
+            "{\"id\":\"0.3962075067430437-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 140
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "eneterOriginAndDestination",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And And enter departing date for one way booking",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Then click on Search",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Given command to open broswer",
+      "type": "TestStepPass",
+      "duration": 13914,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When When the user is on homepage click on flights",
+      "type": "TestStepPass",
+      "duration": 11666,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on flights only",
+      "type": "TestStepPass",
+      "duration": 189,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on one way",
+      "type": "TestStepPass",
+      "duration": 166,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is booking one way enter origin and destination",
+      "type": "TestStepFail",
+      "screenshot": "test-results/12_Feb_2018_11_15_AM/img/testOrbitz_m7zxkn1990g316342.png",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Wrong number of parameters, Expected 3 parameters but Actual is 0",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And enter departing date for one way booking",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Then click on Search",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.RuntimeException: Wrong number of parameters, Expected 3 parameters but Actual is 0\r\n\tat .And And when the user is booking one way enter origin and destination(scenarios/test.bdd:10)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.processArgs(JavaStep.java:223)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

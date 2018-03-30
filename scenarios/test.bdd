@@ -1,0 +1,18 @@
+
+
+SCENARIO: testOrbitz
+META-DATA: {"description":"end to end","groups":["P1","P2","SMOKE"],"key":"location"}
+	
+	Given Given command to open broswer
+	When When the user is on homepage click on flights
+	And And when the user is on flights page click on flights only
+	And And when the user is on flights page click on one way
+	And And when the user is booking one way enter '${origin}' and '${destination}' 
+	And And enter departing date for one way booking
+	And And click on Search
+	Then Then verify search results
+	
+END
+
+
+

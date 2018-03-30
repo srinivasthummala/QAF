@@ -1,0 +1,223 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 12299
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1146
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlights",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.7392659969520692-1",
+          "subLogs": [],
+          "duration": 101
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.7392659969520692-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 2263
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickFlightsOnly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tab-flight-tab, using=id}"
+          ],
+          "result": "id: 0.7392659969520692-2",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: tab-flight-tab",
+            "{\"id\":\"0.7392659969520692-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 132
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOneWay",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-type-one-way-label, using=id}"
+          ],
+          "result": "id: 0.7392659969520692-3",
+          "subLogs": [],
+          "duration": 47
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-type-one-way-label",
+            "{\"id\":\"0.7392659969520692-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 138
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterOriginAndDestination",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And And enter departing date for one way booking",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And And click on Search",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then Then verify search results",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Given command to open broswer",
+      "type": "TestStepPass",
+      "duration": 17612,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When When the user is on homepage click on flights",
+      "type": "TestStepPass",
+      "duration": 2393,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on flights only",
+      "type": "TestStepPass",
+      "duration": 164,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on one way",
+      "type": "TestStepPass",
+      "duration": 188,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is booking one way enter origin and destination",
+      "type": "TestStepFail",
+      "screenshot": "test-results/13_Feb_2018_02_37_PM/img/testOrbitz_yvawreaxyywy42094.png",
+      "duration": 1,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Unresolved compilation problem: \n\tUnhandled exception type InterruptedException\n",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And enter departing date for one way booking",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And click on Search",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Then verify search results",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.Error: Unresolved compilation problem: \n\tUnhandled exception type InterruptedException\n\r\n\tat .And And when the user is booking one way enter origin and destination(scenarios/test.bdd:10)\r\n\tat com.orbitz.steps.FlightsPageSteps.enterOriginAndDestination(FlightsPageSteps.java:67)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

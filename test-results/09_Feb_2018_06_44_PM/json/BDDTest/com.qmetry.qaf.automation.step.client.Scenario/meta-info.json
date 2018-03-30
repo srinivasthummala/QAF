@@ -1,0 +1,49 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "end to end",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3.0,
+        "name": "testOrbitz",
+        "referece": "scenarios/test.bdd",
+        "sign": "scenarios.test.bdd.testOrbitz()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1518182043158,
+      "duration": 331,
+      "result": "skip",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "end to end",
+        "groups": [
+          "P1",
+          "P2",
+          "SMOKE"
+        ],
+        "lineNo": 3,
+        "name": "testOrbitz",
+        "referece": "scenarios/test.bdd",
+        "resultFileName": "testOrbitzFaGFoGyCSH",
+        "sign": "scenarios.test.bdd.testOrbitz()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1518182088732,
+      "duration": 50251,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

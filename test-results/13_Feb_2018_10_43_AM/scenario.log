@@ -1,0 +1,36 @@
+10:43:45 scenario.file.loc[Ljava.lang.String;@1ad282e0
+10:43:45 loading BDD file: scenarios/test.bdd
+10:43:45 total test found: 1
+10:43:45 
+
+Executing scenario: testOrbitz - end to end
+10:43:45 pkg: com.qmetry.qaf.automation.step
+10:43:45 pkg: com.orbitz.steps
+10:43:45 Found duplicate step to load [] with [lower] prority then []
+10:43:45 Invoking Teststep: Given Given command to open broswer
+10:44:02 Completed Teststep: Given Given command to open broswer
+10:44:02 Invoking Teststep: When When the user is on homepage click on flights
+10:44:02 Completed Teststep: When When the user is on homepage click on flights
+10:44:02 Invoking Teststep: And And when the user is on flights page click on flights only
+10:44:08 Completed Teststep: And And when the user is on flights page click on flights only
+10:44:08 Invoking Teststep: And And when the user is on flights page click on one way
+10:44:08 Completed Teststep: And And when the user is on flights page click on one way
+10:44:08 Invoking Teststep: And And when the user is booking one way enter origin and destination
+10:44:09 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Pune, India (PNQ-Lohegaon), id.flightsorigin.flightspage]
+10:44:09 Completed Teststep: sendKeys {text} into {loc} with arguments: [Pune, India (PNQ-Lohegaon), id.flightsorigin.flightspage]
+10:44:09 Invoking Teststep: click on {loc} with arguments: [id.flightsdestination.flightspage]
+10:44:09 Completed Teststep: click on {loc} with arguments: [id.flightsdestination.flightspage]
+10:44:09 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Delhi, India (DEL-Indira Gandhi Intl.), id.flightsdestination.flightspage]
+10:44:10 Completed Teststep: sendKeys {text} into {loc} with arguments: [Delhi, India (DEL-Indira Gandhi Intl.), id.flightsdestination.flightspage]
+10:44:10 Completed Teststep: And And when the user is booking one way enter origin and destination
+10:44:10 Invoking Teststep: And And enter departing date for one way booking
+10:44:10 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/15/2018, id.flightdeparting.flightspage]
+10:44:11 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/15/2018, id.flightdeparting.flightspage]
+10:44:11 Invoking Teststep: click on {loc} with arguments: [xpath.calendarclosebutton.flightspage]
+10:44:11 Completed Teststep: click on {loc} with arguments: [xpath.calendarclosebutton.flightspage]
+10:44:11 Completed Teststep: And And enter departing date for one way booking
+10:44:11 Invoking Teststep: And And click on Search
+10:44:21 Completed Teststep: And And click on Search
+10:44:21 Invoking Teststep: Then Then verify search results
+10:44:33 Completed Teststep: Then Then verify search results
+10:44:33 Competed scenario: testOrbitz with status SUCESS

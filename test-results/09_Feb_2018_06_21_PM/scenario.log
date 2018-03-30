@@ -1,0 +1,38 @@
+18:21:06 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:21:06 loading BDD file: scenarios/flightspage.bdd
+18:21:06 total test found: 1
+18:21:06 
+
+Executing scenario: flightspage - flightbooking
+18:21:06 pkg: com.qmetry.qaf.automation.step
+18:21:06 pkg: com.orbitz-project-assignment
+18:21:06 Found duplicate step to load [] with [lower] prority then []
+18:21:06 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:21:06 Competed scenario: flightspage with status FAILURE
+18:21:57 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:21:57 loading BDD file: scenarios/flightspage.bdd
+18:21:57 total test found: 1
+18:21:57 
+
+Executing scenario: flightspage - flightbooking
+18:21:57 pkg: com.qmetry.qaf.automation.step
+18:21:57 pkg: com.orbitz-project-assignment
+18:21:57 Found duplicate step to load [] with [lower] prority then []
+18:21:57 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:21:57 Competed scenario: flightspage with status FAILURE

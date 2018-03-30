@@ -1,0 +1,7 @@
+xpath.flightoriginanddestination.flightspage = {\"locator\":\"xpath=//div[@data-test-id='flight-info']\",\"desc\":\"Flights page origin and destination\"}
+css.flightsearchresultpage = {\"locator\":\"css=.grid-container.standard-padding\",\"desc\":\"Flights search result page\"}
+xpath.flightname = {\"locator\":\"xpath=//span[@data-test-id='airline-name']\",\"desc\":\"Flights name in the search results\"}
+xpath.flightprice.flightsearchpage = {\"locator\":\"xpath=//span[@data-test-id='listing-price-dollars']\",\"desc\":\"Flight price in search result page\"}
+css.selectbutton.resultspage = {\"locator\":\"css=.btn-secondary.btn-action.t-select-btn\",\"desc\":\"Select button\"}
+id.continuebutton.selectedflightpage = {\"locator\":\"id=bookButton\",\"desc\":\"Continue button\"}
+css.flightname.searchedflight = {\"locator\":\"css=.airlineName\",\"desc\":\"Flight name of searhed flight\"}

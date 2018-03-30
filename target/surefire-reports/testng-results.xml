@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Opened]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on flights]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on FlightsOnly]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Oneway]]>
+    </line>
+    <line>
+      <![CDATA[Entered Origin]]>
+    </line>
+    <line>
+      <![CDATA[Entered Destination]]>
+    </line>
+    <line>
+      <![CDATA[Hyderabad, India (HYD-Rajiv Gandhi Intl.)]]>
+    </line>
+    <line>
+      <![CDATA[Mumbai, India (BOM-Chhatrapati Shivaji Intl.)]]>
+    </line>
+    <line>
+      <![CDATA[Entered Origin]]>
+    </line>
+    <line>
+      <![CDATA[Entered Destination]]>
+    </line>
+    <line>
+      <![CDATA[Selected Date]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Search]]>
+    </line>
+    <line>
+      <![CDATA[FlightName:Air India]]>
+    </line>
+    <line>
+      <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+    </line>
+    <line>
+      <![CDATA[FlightPrice:$66]]>
+    </line>
+    <line>
+      <![CDATA[FlightName:Air India]]>
+    </line>
+    <line>
+      <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+    </line>
+    <line>
+      <![CDATA[FlightPrice:$69]]>
+    </line>
+    <line>
+      <![CDATA[FlightName:Jet Airways]]>
+    </line>
+    <line>
+      <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+    </line>
+    <line>
+      <![CDATA[FlightPrice:$76]]>
+    </line>
+    <line>
+      <![CDATA[FlightName:Air India]]>
+    </line>
+    <line>
+      <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+    </line>
+    <line>
+      <![CDATA[FlightPrice:$85]]>
+    </line>
+    <line>
+      <![CDATA[FlightName:Air India]]>
+    </line>
+    <line>
+      <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+    </line>
+    <line>
+      <![CDATA[FlightPrice:$92]]>
+    </line>
+    <line>
+      <![CDATA[FlightName:Jet Airways]]>
+    </line>
+    <line>
+      <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+    </line>
+    <line>
+      <![CDATA[FlightPrice:$105]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;71&gt; was greater than &lt;0&gt; <a href="../img/executionFlightsPage_1on7h53cdyx659621.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "HYD - BOM"
+     Actual: was "HYD - BOM" <a href="../img/executionFlightsPage_3k77xk0s42mr59622.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="93343" started-at="2018-02-13T12:35:03Z" finished-at="2018-02-13T12:36:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="93343" started-at="2018-02-13T12:35:03Z" finished-at="2018-02-13T12:36:36Z">
+      <class name="com.orbitz.tests.FlightsPageTestCase_101">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="setupSuit" is-config="true" duration-ms="148" started-at="2018-02-13T18:05:03Z" finished-at="2018-02-13T18:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="setupTest" is-config="true" duration-ms="53" started-at="2018-02-13T18:05:03Z" finished-at="2018-02-13T18:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="setup" is-config="true" duration-ms="16" started-at="2018-02-13T18:05:03Z" finished-at="2018-02-13T18:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="executionFlightsPage(java.util.Map)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="executionFlightsPage" duration-ms="91604" started-at="2018-02-13T18:05:03Z" finished-at="2018-02-13T18:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Opened]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on flights]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on FlightsOnly]]>
+            </line>
+            <line>
+              <![CDATA[Clicked On Oneway]]>
+            </line>
+            <line>
+              <![CDATA[Entered Origin]]>
+            </line>
+            <line>
+              <![CDATA[Entered Destination]]>
+            </line>
+            <line>
+              <![CDATA[Hyderabad, India (HYD-Rajiv Gandhi Intl.)]]>
+            </line>
+            <line>
+              <![CDATA[Mumbai, India (BOM-Chhatrapati Shivaji Intl.)]]>
+            </line>
+            <line>
+              <![CDATA[Entered Origin]]>
+            </line>
+            <line>
+              <![CDATA[Entered Destination]]>
+            </line>
+            <line>
+              <![CDATA[Selected Date]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Search]]>
+            </line>
+            <line>
+              <![CDATA[FlightName:Air India]]>
+            </line>
+            <line>
+              <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+            </line>
+            <line>
+              <![CDATA[FlightPrice:$66]]>
+            </line>
+            <line>
+              <![CDATA[FlightName:Air India]]>
+            </line>
+            <line>
+              <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+            </line>
+            <line>
+              <![CDATA[FlightPrice:$69]]>
+            </line>
+            <line>
+              <![CDATA[FlightName:Jet Airways]]>
+            </line>
+            <line>
+              <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+            </line>
+            <line>
+              <![CDATA[FlightPrice:$76]]>
+            </line>
+            <line>
+              <![CDATA[FlightName:Air India]]>
+            </line>
+            <line>
+              <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+            </line>
+            <line>
+              <![CDATA[FlightPrice:$85]]>
+            </line>
+            <line>
+              <![CDATA[FlightName:Air India]]>
+            </line>
+            <line>
+              <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+            </line>
+            <line>
+              <![CDATA[FlightPrice:$92]]>
+            </line>
+            <line>
+              <![CDATA[FlightName:Jet Airways]]>
+            </line>
+            <line>
+              <![CDATA[Flight Origin and Destination:HYD - BOM]]>
+            </line>
+            <line>
+              <![CDATA[FlightPrice:$105]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;71&gt; was greater than &lt;0&gt; <a href="../img/executionFlightsPage_1on7h53cdyx659621.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "HYD - BOM"
+     Actual: was "HYD - BOM" <a href="../img/executionFlightsPage_3k77xk0s42mr59622.png" target="_blank">[View Screenshot]</a> </div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionFlightsPage -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-02-13T18:05:03Z" finished-at="2018-02-13T18:05:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orbitz.tests.FlightsPageTestCase_101.executionFlightsPage(java.util.Map) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-13T18:06:35Z" finished-at="2018-02-13T18:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=executionFlightsPage status=SUCCESS method=FlightsPageTestCase_101.executionFlightsPage(java.util.Map)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e] output=Browser Opened]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-02-13T18:06:35Z" finished-at="2018-02-13T18:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="afterTest" is-config="true" duration-ms="1130" started-at="2018-02-13T18:06:35Z" finished-at="2018-02-13T18:06:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@4c6e276e]" name="afterSuit" is-config="true" duration-ms="2" started-at="2018-02-13T18:06:37Z" finished-at="2018-02-13T18:06:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39529185]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.orbitz.tests.FlightsPageTestCase_101 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

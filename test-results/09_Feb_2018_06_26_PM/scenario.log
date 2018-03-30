@@ -1,0 +1,57 @@
+18:26:24 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:26:24 loading BDD file: scenarios/flightspage.bdd
+18:26:24 total test found: 1
+18:26:25 
+
+Executing scenario: flightspage - flightbooking
+18:26:25 pkg: com.qmetry.qaf.automation.step
+18:26:25 pkg: com.orbitz-project-assignment
+18:26:25 Found duplicate step to load [] with [lower] prority then []
+18:26:25 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:26:25 Competed scenario: flightspage with status FAILURE
+18:26:33 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:26:33 loading BDD file: scenarios/flightspage.bdd
+18:26:33 total test found: 1
+18:26:33 
+
+Executing scenario: flightspage - flightbooking
+18:26:33 pkg: com.qmetry.qaf.automation.step
+18:26:33 pkg: com.orbitz-project-assignment
+18:26:33 Found duplicate step to load [] with [lower] prority then []
+18:26:33 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:26:33 Competed scenario: flightspage with status FAILURE
+18:26:50 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:26:50 loading BDD file: scenarios/flightspage.bdd
+18:26:50 total test found: 1
+18:26:50 
+
+Executing scenario: flightspage - flightbooking
+18:26:50 pkg: com.qmetry.qaf.automation.step
+18:26:50 pkg: com.orbitz-project-assignment
+18:26:50 Found duplicate step to load [] with [lower] prority then []
+18:26:50 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:26:50 Competed scenario: flightspage with status FAILURE

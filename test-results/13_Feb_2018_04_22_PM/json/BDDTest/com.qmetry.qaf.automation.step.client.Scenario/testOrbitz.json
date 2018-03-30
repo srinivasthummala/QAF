@@ -1,0 +1,1017 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 8569
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1129
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlights",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[id.flights.flightshomepage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=primary-header-flight, using=id}"
+              ],
+              "result": "id: 0.7733323057121062-1",
+              "subLogs": [],
+              "duration": 135
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: primary-header-flight",
+                "{\"id\":\"0.7733323057121062-1\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 1826
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickFlightsOnly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[id.flightsonly.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=tab-flight-tab, using=id}"
+              ],
+              "result": "id: 0.7733323057121062-2",
+              "subLogs": [],
+              "duration": 33
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: tab-flight-tab",
+                "{\"id\":\"0.7733323057121062-2\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 131
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOneWay",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[id.onewaybutton.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-type-one-way-label, using=id}"
+              ],
+              "result": "id: 0.7733323057121062-3",
+              "subLogs": [],
+              "duration": 81
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: flight-type-one-way-label",
+                "{\"id\":\"0.7733323057121062-3\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 243
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterOriginAndDestination",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.7733323057121062-4",
+          "subLogs": [],
+          "duration": 31
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.7733323057121062-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 145
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.7733323057121062-4",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.7733323057121062-4\",\"value\":[\"Pune India (PNQ-Lohegaon\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 507
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-destination, using=id}"
+          ],
+          "result": "id: 0.7733323057121062-5",
+          "subLogs": [],
+          "duration": 34
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-destination",
+            "{\"id\":\"0.7733323057121062-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 88
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-destination, using=id}"
+          ],
+          "result": "id: 0.7733323057121062-5",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.id: flight-destination",
+            "{\"id\":\"0.7733323057121062-5\",\"value\":[\"Delhi India (DEL-Indira Gandhi Intl.\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 702
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectingDepartingDate",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[id.flightdeparting.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-departing, using=id}"
+              ],
+              "result": "id: 0.7733323057121062-6",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: flight-departing",
+                "{\"id\":\"0.7733323057121062-6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 107
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[02/15/2018, id.flightdeparting.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-departing, using=id}"
+              ],
+              "result": "id: 0.7733323057121062-6",
+              "subLogs": [],
+              "duration": 9
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-departing",
+                "{\"id\":\"0.7733323057121062-6\",\"value\":[\"02/15/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 143
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[xpath.calendarclosebutton.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=.//*[@id='flight-departing-wrapper']/div/div/div[1]/button, using=xpath}"
+              ],
+              "result": "id: 0.7733323057121062-7",
+              "subLogs": [],
+              "duration": 25
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.xpath: .//*[@id='flight-departing-wrapper']/div/div/div[1]/button",
+                "{\"id\":\"0.7733323057121062-7\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 108
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "click",
+          "args": [
+            "[id.searchbutton.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=search-button, using=id}"
+              ],
+              "result": "id: 0.7733323057121062-8",
+              "subLogs": [],
+              "duration": 23
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: search-button",
+                "{\"id\":\"0.7733323057121062-8\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 9713
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySearchResults",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+          ],
+          "result": "[id: 0.6273790054240918-1, id: 0.6273790054240918-2, id: 0.6273790054240918-3, id: 0.6273790054240918-4, id: 0.6273790054240918-5, id: 0.6273790054240918-6, id: 0.6273790054240918-7, id: 0.6273790054240918-8, id: 0.6273790054240918-9, id: 0.6273790054240918-10, id: 0.6273790054240918-11, id: 0.6273790054240918-12, id: 0.6273790054240918-13, id: 0.6273790054240918-14, id: 0.6273790054240918-15, id: 0.6273790054240918-16, id: 0.6273790054240918-17, id: 0.6273790054240918-18, id: 0.6273790054240918-19, id: 0.6273790054240918-20, id: 0.6273790054240918-21, id: 0.6273790054240918-22, id: 0.6273790054240918-23, id: 0.6273790054240918-24, id: 0.6273790054240918-25, id: 0.6273790054240918-26, id: 0.6273790054240918-27, id: 0.6273790054240918-28, id: 0.6273790054240918-29, id: 0.6273790054240918-30, id: 0.6273790054240918-31, id: 0.6273790054240918-32, id: 0.6273790054240918-33, id: 0.6273790054240918-34, id: 0.6273790054240918-35, id: 0.6273790054240918-36, id: 0.6273790054240918-37, id: 0.6273790054240918-38, id: 0.6273790054240918-39, id: 0.6273790054240918-40, id: 0.6273790054240918-41, id: 0.6273790054240918-42, id: 0.6273790054240918-43, id: 0.6273790054240918-44, id: 0.6273790054240918-45, id: 0.6273790054240918-46, id: 0.6273790054240918-47, id: 0.6273790054240918-48, id: 0.6273790054240918-49, id: 0.6273790054240918-50, id: 0.6273790054240918-51, id: 0.6273790054240918-52, id: 0.6273790054240918-53, id: 0.6273790054240918-54, id: 0.6273790054240918-55, id: 0.6273790054240918-56, id: 0.6273790054240918-57, id: 0.6273790054240918-58, id: 0.6273790054240918-59, id: 0.6273790054240918-60, id: 0.6273790054240918-61, id: 0.6273790054240918-62, id: 0.6273790054240918-63]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+          ],
+          "result": "[id: 0.6273790054240918-1, id: 0.6273790054240918-2, id: 0.6273790054240918-3, id: 0.6273790054240918-4, id: 0.6273790054240918-5, id: 0.6273790054240918-6, id: 0.6273790054240918-7, id: 0.6273790054240918-8, id: 0.6273790054240918-9, id: 0.6273790054240918-10, id: 0.6273790054240918-11, id: 0.6273790054240918-12, id: 0.6273790054240918-13, id: 0.6273790054240918-14, id: 0.6273790054240918-15, id: 0.6273790054240918-16, id: 0.6273790054240918-17, id: 0.6273790054240918-18, id: 0.6273790054240918-19, id: 0.6273790054240918-20, id: 0.6273790054240918-21, id: 0.6273790054240918-22, id: 0.6273790054240918-23, id: 0.6273790054240918-24, id: 0.6273790054240918-25, id: 0.6273790054240918-26, id: 0.6273790054240918-27, id: 0.6273790054240918-28, id: 0.6273790054240918-29, id: 0.6273790054240918-30, id: 0.6273790054240918-31, id: 0.6273790054240918-32, id: 0.6273790054240918-33, id: 0.6273790054240918-34, id: 0.6273790054240918-35, id: 0.6273790054240918-36, id: 0.6273790054240918-37, id: 0.6273790054240918-38, id: 0.6273790054240918-39, id: 0.6273790054240918-40, id: 0.6273790054240918-41, id: 0.6273790054240918-42, id: 0.6273790054240918-43, id: 0.6273790054240918-44, id: 0.6273790054240918-45, id: 0.6273790054240918-46, id: 0.6273790054240918-47, id: 0.6273790054240918-48, id: 0.6273790054240918-49, id: 0.6273790054240918-50, id: 0.6273790054240918-51, id: 0.6273790054240918-52, id: 0.6273790054240918-53, id: 0.6273790054240918-54, id: 0.6273790054240918-55, id: 0.6273790054240918-56, id: 0.6273790054240918-57, id: 0.6273790054240918-58, id: 0.6273790054240918-59, id: 0.6273790054240918-60, id: 0.6273790054240918-61, id: 0.6273790054240918-62, id: 0.6273790054240918-63]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+          ],
+          "result": "[id: 0.6273790054240918-1, id: 0.6273790054240918-2, id: 0.6273790054240918-3, id: 0.6273790054240918-4, id: 0.6273790054240918-5, id: 0.6273790054240918-6, id: 0.6273790054240918-7, id: 0.6273790054240918-8, id: 0.6273790054240918-9, id: 0.6273790054240918-10, id: 0.6273790054240918-11, id: 0.6273790054240918-12, id: 0.6273790054240918-13, id: 0.6273790054240918-14, id: 0.6273790054240918-15, id: 0.6273790054240918-16, id: 0.6273790054240918-17, id: 0.6273790054240918-18, id: 0.6273790054240918-19, id: 0.6273790054240918-20, id: 0.6273790054240918-21, id: 0.6273790054240918-22, id: 0.6273790054240918-23, id: 0.6273790054240918-24, id: 0.6273790054240918-25, id: 0.6273790054240918-26, id: 0.6273790054240918-27, id: 0.6273790054240918-28, id: 0.6273790054240918-29, id: 0.6273790054240918-30, id: 0.6273790054240918-31, id: 0.6273790054240918-32, id: 0.6273790054240918-33, id: 0.6273790054240918-34, id: 0.6273790054240918-35, id: 0.6273790054240918-36, id: 0.6273790054240918-37, id: 0.6273790054240918-38, id: 0.6273790054240918-39, id: 0.6273790054240918-40, id: 0.6273790054240918-41, id: 0.6273790054240918-42, id: 0.6273790054240918-43, id: 0.6273790054240918-44, id: 0.6273790054240918-45, id: 0.6273790054240918-46, id: 0.6273790054240918-47, id: 0.6273790054240918-48, id: 0.6273790054240918-49, id: 0.6273790054240918-50, id: 0.6273790054240918-51, id: 0.6273790054240918-52, id: 0.6273790054240918-53, id: 0.6273790054240918-54, id: 0.6273790054240918-55, id: 0.6273790054240918-56, id: 0.6273790054240918-57, id: 0.6273790054240918-58, id: 0.6273790054240918-59, id: 0.6273790054240918-60, id: 0.6273790054240918-61, id: 0.6273790054240918-62, id: 0.6273790054240918-63]",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-1\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-1\",\"value\":\".secondary.truncate\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-65",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .secondary.truncate",
+            "{\"id\":\"0.6273790054240918-65\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-1\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-1\",\"value\":\".dollars.price-emphasis\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-66",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .dollars.price-emphasis",
+            "{\"id\":\"0.6273790054240918-66\"}"
+          ],
+          "result": "getElementText:$134",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-2\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-2\",\"value\":\".secondary.truncate\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-67",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .secondary.truncate",
+            "{\"id\":\"0.6273790054240918-67\"}"
+          ],
+          "result": "getElementText:Jet Airways",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-2\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 23
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-2\",\"value\":\".dollars.price-emphasis\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-68",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .dollars.price-emphasis",
+            "{\"id\":\"0.6273790054240918-68\"}"
+          ],
+          "result": "getElementText:$145",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-3\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-3\",\"value\":\".secondary.truncate\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-69",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .secondary.truncate",
+            "{\"id\":\"0.6273790054240918-69\"}"
+          ],
+          "result": "getElementText:Jet Airways",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-3\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-3\",\"value\":\".dollars.price-emphasis\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-70",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .dollars.price-emphasis",
+            "{\"id\":\"0.6273790054240918-70\"}"
+          ],
+          "result": "getElementText:$165",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-4\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-4\",\"value\":\".secondary.truncate\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-71",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .secondary.truncate",
+            "{\"id\":\"0.6273790054240918-71\"}"
+          ],
+          "result": "getElementText:Jet Airways",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-4\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-4\",\"value\":\".dollars.price-emphasis\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-72",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .dollars.price-emphasis",
+            "{\"id\":\"0.6273790054240918-72\"}"
+          ],
+          "result": "getElementText:$165",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-5\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-5\",\"value\":\".secondary.truncate\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-73",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .secondary.truncate",
+            "{\"id\":\"0.6273790054240918-73\"}"
+          ],
+          "result": "getElementText:Vistara",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-5\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-5\",\"value\":\".dollars.price-emphasis\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-74",
+          "subLogs": [],
+          "duration": 16
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .dollars.price-emphasis",
+            "{\"id\":\"0.6273790054240918-74\"}"
+          ],
+          "result": "getElementText:$175",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-6\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-6\",\"value\":\".secondary.truncate\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-75",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .secondary.truncate",
+            "{\"id\":\"0.6273790054240918-75\"}"
+          ],
+          "result": "getElementText:Jet Airways",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"xpath\",\"id\":\"0.6273790054240918-6\",\"value\":\"//div[@class='secondary']\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-64",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@class='secondary']",
+            "{\"id\":\"0.6273790054240918-64\"}"
+          ],
+          "result": "getElementText:PNQ - DEL",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.xpath: //li[@class='flight-module segment offer-listing']",
+            "{\"using\":\"css selector\",\"id\":\"0.6273790054240918-6\",\"value\":\".dollars.price-emphasis\"}"
+          ],
+          "result": "findChildElement:id: 0.6273790054240918-76",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.cssSelector: .dollars.price-emphasis",
+            "{\"id\":\"0.6273790054240918-76\"}"
+          ],
+          "result": "getElementText:$186",
+          "subLogs": [],
+          "duration": 17
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Given command to open broswer",
+      "type": "TestStepPass",
+      "duration": 16767,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When When the user is on homepage click on flights",
+      "type": "TestStepPass",
+      "duration": 1989,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'id.flights.flightshomepage'",
+          "type": "TestStepPass",
+          "duration": 1979,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And when the user is on flights page click on flights only",
+      "type": "TestStepPass",
+      "duration": 170,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'id.flightsonly.flightspage'",
+          "type": "TestStepPass",
+          "duration": 167,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And when the user is on flights page click on one way",
+      "type": "TestStepPass",
+      "duration": 336,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'id.onewaybutton.flightspage'",
+          "type": "TestStepPass",
+          "duration": 330,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And when the user is booking one way enter origin and destination",
+      "type": "TestStepPass",
+      "duration": 1557,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And enter departing date for one way booking",
+      "type": "TestStepPass",
+      "duration": 419,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'id.flightdeparting.flightspage'",
+          "type": "TestStepPass",
+          "duration": 127,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '02/15/2018' into 'id.flightdeparting.flightspage'",
+          "type": "TestStepPass",
+          "duration": 155,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'xpath.calendarclosebutton.flightspage'",
+          "type": "TestStepPass",
+          "duration": 135,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And click on Search",
+      "type": "TestStepPass",
+      "duration": 9741,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "click on 'id.searchbutton.flightspage'",
+          "type": "TestStepPass",
+          "duration": 9739,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then Then verify search results",
+      "type": "TestStepPass",
+      "duration": 1812,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;63&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "test-results/13_Feb_2018_04_22_PM/img/testOrbitz_tkv3lmaj5qi118058.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "\nExpected: a string containing \"PNQ - DEL\"\n     Actual: was \"PNQ - DEL\"",
+          "type": "Pass",
+          "screenshot": "test-results/13_Feb_2018_04_22_PM/img/testOrbitz_17lfs4wemp0yt18059.png",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}

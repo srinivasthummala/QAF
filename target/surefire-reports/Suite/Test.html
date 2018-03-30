@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 13 18:05:03 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>93 seconds (93343 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orbitz.tests.FlightsPageTestCase_101.executionFlightsPage()'><b>executionFlightsPage</b><br>Test class: com.orbitz.tests.FlightsPageTestCase_101<br>Parameters: {origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}<br/>
+<a href="#Output-722951168" onClick='toggleBox("Output-722951168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722951168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722951168">
+Browser Opened<br/>
+Clicked on flights<br/>
+Clicked on FlightsOnly<br/>
+Clicked On Oneway<br/>
+Entered Origin<br/>
+Entered Destination<br/>
+Hyderabad, India (HYD-Rajiv Gandhi Intl.)<br/>
+Mumbai, India (BOM-Chhatrapati Shivaji Intl.)<br/>
+Entered Origin<br/>
+Entered Destination<br/>
+Selected Date<br/>
+Clicked on Search<br/>
+FlightName:Air India<br/>
+Flight Origin and Destination:HYD - BOM<br/>
+FlightPrice:$66<br/>
+FlightName:Air India<br/>
+Flight Origin and Destination:HYD - BOM<br/>
+FlightPrice:$69<br/>
+FlightName:Jet Airways<br/>
+Flight Origin and Destination:HYD - BOM<br/>
+FlightPrice:$76<br/>
+FlightName:Air India<br/>
+Flight Origin and Destination:HYD - BOM<br/>
+FlightPrice:$85<br/>
+FlightName:Air India<br/>
+Flight Origin and Destination:HYD - BOM<br/>
+FlightPrice:$92<br/>
+FlightName:Jet Airways<br/>
+Flight Origin and Destination:HYD - BOM<br/>
+FlightPrice:$105<br/>
+<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;71&gt; was greater than &lt;0&gt; <a href="../img/executionFlightsPage_1on7h53cdyx659621.png" target="_blank">[View Screenshot]</a> </div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "HYD - BOM"
+     Actual: was "HYD - BOM" <a href="../img/executionFlightsPage_3k77xk0s42mr59622.png" target="_blank">[View Screenshot]</a> </div></div><br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>com.orbitz.tests.FlightsPageTestCase_101@4c6e276e</td></tr>
+</table><p>
+</body>
+</html>

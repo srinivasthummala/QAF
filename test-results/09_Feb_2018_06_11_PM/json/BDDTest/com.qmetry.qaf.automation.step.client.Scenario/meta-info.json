@@ -1,0 +1,22 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "description": "flightbooking",
+        "groups": [],
+        "lineNo": 3,
+        "name": "flightspage",
+        "referece": "scenarios/flightspage.bdd",
+        "sign": "scenarios.flightspage.bdd.flightspage()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]"
+      },
+      "dependsOn": [],
+      "startTime": 1518180103859,
+      "duration": 285,
+      "result": "skip",
+      "passPer": 0.0
+    }
+  ]
+}

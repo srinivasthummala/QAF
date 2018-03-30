@@ -1,0 +1,2 @@
+span.span = {\"locator\":\"id=primary-header-hotel\",\"desc\":\"Text span\"}
+text.city.or.airport = {\"locator\":\"css=.tab-label\",\"desc\":\"Input for City or airport\"}

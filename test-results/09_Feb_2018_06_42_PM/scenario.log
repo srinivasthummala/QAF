@@ -1,0 +1,19 @@
+18:42:37 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:42:37 loading BDD file: scenarios/test.bdd
+18:42:37 total test found: 1
+18:42:37 
+
+Executing scenario: testOrbitz - end to end
+18:42:37 pkg: com.qmetry.qaf.automation.step
+18:42:37 pkg: com.orbitz-project-assignment
+18:42:37 Found duplicate step to load [] with [lower] prority then []
+18:42:37 
+/**
+* Auto-generated code snippet by QMetry Automation Framework.
+*/
+@QAFTestStep(description="open browser")
+public void openBrowser(){
+	//TODO: remove NotYetImplementedException and call test steps
+	throw new NotYetImplementedException();
+}
+18:42:37 Competed scenario: testOrbitz with status FAILURE

@@ -1,0 +1,420 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 13120
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1142
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=primary-header-flight, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-1",
+      "subLogs": [],
+      "duration": 96
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: primary-header-flight",
+        "{\"id\":\"0.08743086174941483-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5565
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=tab-flight-tab, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-2",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: tab-flight-tab",
+        "{\"id\":\"0.08743086174941483-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 146
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-type-one-way-label, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-3",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: flight-type-one-way-label",
+        "{\"id\":\"0.08743086174941483-3\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 155
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-4",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.08743086174941483-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 99
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-4",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.08743086174941483-4\",\"value\":[\"Pune\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 139
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-4",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.08743086174941483-4\",\"value\":[{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-origin, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-4",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-origin",
+        "{\"id\":\"0.08743086174941483-4\",\"value\":[{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-5",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.08743086174941483-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-5",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.08743086174941483-5\",\"value\":[\"Delhi\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 126
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-5",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.08743086174941483-5\",\"value\":[{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-destination, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-5",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-destination",
+        "{\"id\":\"0.08743086174941483-5\",\"value\":[{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 70
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-6",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.08743086174941483-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 109
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-6",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.08743086174941483-6\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=flight-departing, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-6",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.id: flight-departing",
+        "{\"id\":\"0.08743086174941483-6\",\"value\":[\"02/15/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 192
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.//*[@id='flight-departing-wrapper']/div/div/div[1]/button, using=xpath}"
+      ],
+      "result": "id: 0.08743086174941483-7",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//*[@id='flight-departing-wrapper']/div/div/div[1]/button",
+        "{\"id\":\"0.08743086174941483-7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 143
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=search-button, using=id}"
+      ],
+      "result": "id: 0.08743086174941483-8",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: search-button",
+        "{\"id\":\"0.08743086174941483-8\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5692
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+      ],
+      "result": "[id: 0.7613292807835754-1, id: 0.7613292807835754-2, id: 0.7613292807835754-3, id: 0.7613292807835754-4, id: 0.7613292807835754-5, id: 0.7613292807835754-6, id: 0.7613292807835754-7, id: 0.7613292807835754-8, id: 0.7613292807835754-9, id: 0.7613292807835754-10, id: 0.7613292807835754-11, id: 0.7613292807835754-12, id: 0.7613292807835754-13, id: 0.7613292807835754-14, id: 0.7613292807835754-15, id: 0.7613292807835754-16, id: 0.7613292807835754-17, id: 0.7613292807835754-18, id: 0.7613292807835754-19, id: 0.7613292807835754-20, id: 0.7613292807835754-21, id: 0.7613292807835754-22, id: 0.7613292807835754-23, id: 0.7613292807835754-24, id: 0.7613292807835754-25, id: 0.7613292807835754-26, id: 0.7613292807835754-27, id: 0.7613292807835754-28, id: 0.7613292807835754-29, id: 0.7613292807835754-30, id: 0.7613292807835754-31, id: 0.7613292807835754-32, id: 0.7613292807835754-33, id: 0.7613292807835754-34, id: 0.7613292807835754-35, id: 0.7613292807835754-36, id: 0.7613292807835754-37, id: 0.7613292807835754-38, id: 0.7613292807835754-39, id: 0.7613292807835754-40, id: 0.7613292807835754-41, id: 0.7613292807835754-42, id: 0.7613292807835754-43, id: 0.7613292807835754-44, id: 0.7613292807835754-45, id: 0.7613292807835754-46, id: 0.7613292807835754-47, id: 0.7613292807835754-48, id: 0.7613292807835754-49, id: 0.7613292807835754-50, id: 0.7613292807835754-51, id: 0.7613292807835754-52, id: 0.7613292807835754-53, id: 0.7613292807835754-54, id: 0.7613292807835754-55, id: 0.7613292807835754-56, id: 0.7613292807835754-57, id: 0.7613292807835754-58, id: 0.7613292807835754-59, id: 0.7613292807835754-60]",
+      "subLogs": [],
+      "duration": 62
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+      ],
+      "result": "[id: 0.7613292807835754-1, id: 0.7613292807835754-2, id: 0.7613292807835754-3, id: 0.7613292807835754-4, id: 0.7613292807835754-5, id: 0.7613292807835754-6, id: 0.7613292807835754-7, id: 0.7613292807835754-8, id: 0.7613292807835754-9, id: 0.7613292807835754-10, id: 0.7613292807835754-11, id: 0.7613292807835754-12, id: 0.7613292807835754-13, id: 0.7613292807835754-14, id: 0.7613292807835754-15, id: 0.7613292807835754-16, id: 0.7613292807835754-17, id: 0.7613292807835754-18, id: 0.7613292807835754-19, id: 0.7613292807835754-20, id: 0.7613292807835754-21, id: 0.7613292807835754-22, id: 0.7613292807835754-23, id: 0.7613292807835754-24, id: 0.7613292807835754-25, id: 0.7613292807835754-26, id: 0.7613292807835754-27, id: 0.7613292807835754-28, id: 0.7613292807835754-29, id: 0.7613292807835754-30, id: 0.7613292807835754-31, id: 0.7613292807835754-32, id: 0.7613292807835754-33, id: 0.7613292807835754-34, id: 0.7613292807835754-35, id: 0.7613292807835754-36, id: 0.7613292807835754-37, id: 0.7613292807835754-38, id: 0.7613292807835754-39, id: 0.7613292807835754-40, id: 0.7613292807835754-41, id: 0.7613292807835754-42, id: 0.7613292807835754-43, id: 0.7613292807835754-44, id: 0.7613292807835754-45, id: 0.7613292807835754-46, id: 0.7613292807835754-47, id: 0.7613292807835754-48, id: 0.7613292807835754-49, id: 0.7613292807835754-50, id: 0.7613292807835754-51, id: 0.7613292807835754-52, id: 0.7613292807835754-53, id: 0.7613292807835754-54, id: 0.7613292807835754-55, id: 0.7613292807835754-56, id: 0.7613292807835754-57, id: 0.7613292807835754-58, id: 0.7613292807835754-59, id: 0.7613292807835754-60]",
+      "subLogs": [],
+      "duration": 72
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+      ],
+      "result": "[id: 0.7613292807835754-1, id: 0.7613292807835754-2, id: 0.7613292807835754-3, id: 0.7613292807835754-4, id: 0.7613292807835754-5, id: 0.7613292807835754-6, id: 0.7613292807835754-7, id: 0.7613292807835754-8, id: 0.7613292807835754-9, id: 0.7613292807835754-10, id: 0.7613292807835754-11, id: 0.7613292807835754-12, id: 0.7613292807835754-13, id: 0.7613292807835754-14, id: 0.7613292807835754-15, id: 0.7613292807835754-16, id: 0.7613292807835754-17, id: 0.7613292807835754-18, id: 0.7613292807835754-19, id: 0.7613292807835754-20, id: 0.7613292807835754-21, id: 0.7613292807835754-22, id: 0.7613292807835754-23, id: 0.7613292807835754-24, id: 0.7613292807835754-25, id: 0.7613292807835754-26, id: 0.7613292807835754-27, id: 0.7613292807835754-28, id: 0.7613292807835754-29, id: 0.7613292807835754-30, id: 0.7613292807835754-31, id: 0.7613292807835754-32, id: 0.7613292807835754-33, id: 0.7613292807835754-34, id: 0.7613292807835754-35, id: 0.7613292807835754-36, id: 0.7613292807835754-37, id: 0.7613292807835754-38, id: 0.7613292807835754-39, id: 0.7613292807835754-40, id: 0.7613292807835754-41, id: 0.7613292807835754-42, id: 0.7613292807835754-43, id: 0.7613292807835754-44, id: 0.7613292807835754-45, id: 0.7613292807835754-46, id: 0.7613292807835754-47, id: 0.7613292807835754-48, id: 0.7613292807835754-49, id: 0.7613292807835754-50, id: 0.7613292807835754-51, id: 0.7613292807835754-52, id: 0.7613292807835754-53, id: 0.7613292807835754-54, id: 0.7613292807835754-55, id: 0.7613292807835754-56, id: 0.7613292807835754-57, id: 0.7613292807835754-58, id: 0.7613292807835754-59, id: 0.7613292807835754-60]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"css selector\",\"id\":\"0.7613292807835754-1\",\"value\":\".secondary.truncate\"}"
+      ],
+      "result": "findChildElement:id: 0.7613292807835754-61",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .secondary.truncate",
+        "{\"id\":\"0.7613292807835754-61\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 93
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//li[@class='flight-module segment offer-listing'], using=xpath}"
+      ],
+      "result": "id: 0.7613292807835754-62",
+      "subLogs": [],
+      "duration": 7337
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.xpath: //li[@class='flight-module segment offer-listing']",
+        "{\"using\":\"xpath\",\"id\":\"0.7613292807835754-62\",\"value\":\"//div[@class='secondary']\"}"
+      ],
+      "result": "findChildElement:id: 0.7613292807835754-63",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@class='secondary']",
+        "{\"id\":\"-1\"}"
+      ],
+      "subLogs": [],
+      "duration": -1918537059
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;60&gt; was greater than &lt;0&gt;",
+      "type": "Pass",
+      "screenshot": "../img/executionFlightsPage_1leoudm1vc3er56218.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "java.lang.NullPointerException",
+      "type": "Fail",
+      "screenshot": "../img/executionFlightsPage_dq9pa1i06nyi56219.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:201)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElementByXPath(RemoteWebElement.java:295)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:194)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.findElement(QAFExtendedWebElement.java:409)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.load(QAFExtendedWebElement.java:286)\r\n\tat com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:239)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:179)\r\n\tat com.orbitz.pages.SearchreslutsflightsTestPage.verifyResults(SearchreslutsflightsTestPage.java:41)\r\n\tat com.orbitz.tests.FlightsPageTestCase_101.executionFlightsPage(FlightsPageTestCase_101.java:23)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)\r\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:645)\r\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)\r\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)\r\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:781)\r\n\tat org.testng.TestRunner.run(TestRunner.java:635)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:387)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:289)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1218)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1133)\r\n\tat org.testng.TestNG.run(TestNG.java:1104)\r\n\tat org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)\r\n\tat org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)\r\n\tat org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)\r\n"
+}

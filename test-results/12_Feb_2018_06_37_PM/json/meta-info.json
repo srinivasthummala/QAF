@@ -1,0 +1,13 @@
+{
+  "name": "orbitz-project-assignment.scenarios.test.bdd",
+  "status": "fail",
+  "tests": [
+    "BDDTest"
+  ],
+  "total": 1,
+  "pass": 0,
+  "fail": 1,
+  "skip": 0,
+  "startTime": 1518440854351,
+  "endTime": 1518440873273
+}

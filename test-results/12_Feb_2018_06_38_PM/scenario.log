@@ -1,0 +1,48 @@
+18:38:27 scenario.file.loc[Ljava.lang.String;@1ad282e0
+18:38:27 loading BDD file: scenarios/test.bdd
+18:38:27 total test found: 1
+18:38:27 
+
+Executing scenario: testOrbitz - end to end
+18:38:27 pkg: com.qmetry.qaf.automation.step
+18:38:28 pkg: com.orbitz.steps
+18:38:28 Found duplicate step to load [] with [lower] prority then []
+18:38:28 Invoking Teststep: Given Given command to open broswer
+18:38:58 Completed Teststep: Given Given command to open broswer
+18:38:58 Invoking Teststep: When When the user is on homepage click on flights
+18:38:58 Invoking Teststep: click on {loc} with arguments: [id.flights.flightshomepage]
+18:39:00 Completed Teststep: click on {loc} with arguments: [id.flights.flightshomepage]
+18:39:00 Completed Teststep: When When the user is on homepage click on flights
+18:39:00 Invoking Teststep: And And when the user is on flights page click on flights only
+18:39:00 Invoking Teststep: click on {loc} with arguments: [id.flightsonly.flightspage]
+18:39:00 Completed Teststep: click on {loc} with arguments: [id.flightsonly.flightspage]
+18:39:00 Completed Teststep: And And when the user is on flights page click on flights only
+18:39:00 Invoking Teststep: And And when the user is on flights page click on one way
+18:39:00 Invoking Teststep: click on {loc} with arguments: [id.onewaybutton.flightspage]
+18:39:00 Completed Teststep: click on {loc} with arguments: [id.onewaybutton.flightspage]
+18:39:00 Completed Teststep: And And when the user is on flights page click on one way
+18:39:00 Invoking Teststep: And And when the user is booking one way enter origin and destination
+18:39:00 Invoking Teststep: click on {loc} with arguments: [id.flightsorigin.flightspage]
+18:39:00 Completed Teststep: click on {loc} with arguments: [id.flightsorigin.flightspage]
+18:39:00 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Pune, India (PNQ-Lohegaon), id.flightsorigin.flightspage]
+18:39:01 Completed Teststep: sendKeys {text} into {loc} with arguments: [Pune, India (PNQ-Lohegaon), id.flightsorigin.flightspage]
+18:39:01 Invoking Teststep: click on {loc} with arguments: [id.flightsdestination.flightspage]
+18:39:01 Completed Teststep: click on {loc} with arguments: [id.flightsdestination.flightspage]
+18:39:01 Invoking Teststep: sendKeys {text} into {loc} with arguments: [Delhi, India (DEL-Indira Gandhi Intl.), id.flightsdestination.flightspage]
+18:39:02 Completed Teststep: sendKeys {text} into {loc} with arguments: [Delhi, India (DEL-Indira Gandhi Intl.), id.flightsdestination.flightspage]
+18:39:02 Completed Teststep: And And when the user is booking one way enter origin and destination
+18:39:02 Invoking Teststep: And And enter departing date for one way booking
+18:39:02 Invoking Teststep: click on {loc} with arguments: [id.flightdeparting.flightspage]
+18:39:02 Completed Teststep: click on {loc} with arguments: [id.flightdeparting.flightspage]
+18:39:02 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/14/2018, id.flightdeparting.flightspage]
+18:39:02 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/14/2018, id.flightdeparting.flightspage]
+18:39:02 Invoking Teststep: click on {loc} with arguments: [xpath.calendarclosebutton.flightspage]
+18:39:02 Completed Teststep: click on {loc} with arguments: [xpath.calendarclosebutton.flightspage]
+18:39:02 Completed Teststep: And And enter departing date for one way booking
+18:39:02 Invoking Teststep: And And click on Search
+18:39:02 Invoking Teststep: click on {loc} with arguments: [id.searchbutton.flightspage]
+18:39:08 Completed Teststep: click on {loc} with arguments: [id.searchbutton.flightspage]
+18:39:08 Completed Teststep: And And click on Search
+18:39:08 Invoking Teststep: Then Then verify search results
+18:39:09 Completed Teststep: Then Then verify search results
+18:39:09 Competed scenario: testOrbitz with status SUCESS

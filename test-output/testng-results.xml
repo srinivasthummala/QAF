@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="1" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opned browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on flights]]>
+    </line>
+    <line>
+      <![CDATA[Clciked On flights only]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on One Way]]>
+    </line>
+    <line>
+      <![CDATA[Entered Origin]]>
+    </line>
+    <line>
+      <![CDATA[Entered Destination]]>
+    </line>
+    <line>
+      <![CDATA[Selected Date]]>
+    </line>
+    <line>
+      <![CDATA[Clciked On search]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When When the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on flights only</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/24/2018' into 'id.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'xpath.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then Then verify search results <a href="test-results/22_Feb_2018_06_50_PM/img/testOrbitz_8iepvrtr8ucx31557.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;0&gt; was equal to &lt;0&gt; <a href="test-results/22_Feb_2018_06_50_PM/img/testOrbitz_8iepvrtr8ucx31557.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+    </line>
+    <line>
+      <![CDATA[Opned browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on flights]]>
+    </line>
+    <line>
+      <![CDATA[Clciked On flights only]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on One Way]]>
+    </line>
+    <line>
+      <![CDATA[Entered Origin]]>
+    </line>
+    <line>
+      <![CDATA[Entered Destination]]>
+    </line>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When When the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on flights only</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Pune' and 'Delhi'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>And And enter departing date for one way booking <a href="test-results/22_Feb_2018_06_50_PM/img/testOrbitz_1vwbpz85w4moy31558.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/24/2018' into 'id.flightdeparting.flightspage'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>click on 'xpath.calendarclosebutton.flightspage'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.WebDriverException: unknown error: Element <button type="button" class="datepicker-close-btn close btn-text">...</button> is not clickable at point (554, 738). Other element would receive the click: <footer data-tid="typeahead-footer" class="footer" role="application">...</footer>
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11492', ip: '192.168.238.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAVITE~1.PAL\AppData\Local\Temp\scoped_dir14508_16491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.167, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4b6ccce61a4e91fcb8f383cdabbe99d9</div></div><div  class="fail"><span class="fail-label">F </span>unknown error: Element <button type="button" class="datepicker-close-btn close btn-text">...</button> is not clickable at point (554, 738). Other element would receive the click: <footer data-tid="typeahead-footer" class="footer" role="application">...</footer>
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11492', ip: '192.168.238.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAVITE~1.PAL\AppData\Local\Temp\scoped_dir14508_16491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.167, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4b6ccce61a4e91fcb8f383cdabbe99d9</div></div><div  class="teststep"><span class="teststep-label">T </span>And And click on Search</div><div  class="teststep"><span class="teststep-label">T </span>Then Then verify search results</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="orbitz-project-assignment.scenarios.test.bdd" duration-ms="34806" started-at="2018-02-22T13:20:56Z" finished-at="2018-02-22T13:21:31Z">
+    <groups>
+      <group name="P1">
+        <method signature="scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="testOrbitz" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P1 -->
+      <group name="P2">
+        <method signature="scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="testOrbitz" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- P2 -->
+      <group name="SMOKE">
+        <method signature="scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="testOrbitz" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="34806" started-at="2018-02-22T13:20:56Z" finished-at="2018-02-22T13:21:31Z">
+      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupSuit" is-config="true" duration-ms="20" started-at="2018-02-22T18:50:56Z" finished-at="2018-02-22T18:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupTest" is-config="true" duration-ms="2" started-at="2018-02-22T18:50:56Z" finished-at="2018-02-22T18:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setup" is-config="true" duration-ms="1" started-at="2018-02-22T18:50:56Z" finished-at="2018-02-22T18:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-22T18:50:56Z" finished-at="2018-02-22T18:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="testOrbitz" test-instance-name="testOrbitz" signature="testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="FAIL" duration-ms="26962" finished-at="2018-02-22T18:51:23Z" started-at="2018-02-22T18:50:56Z" data-provider="scenariodp" description="end to end">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opned browser]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on flights]]>
+            </line>
+            <line>
+              <![CDATA[Clciked On flights only]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on One Way]]>
+            </line>
+            <line>
+              <![CDATA[Entered Origin]]>
+            </line>
+            <line>
+              <![CDATA[Entered Destination]]>
+            </line>
+            <line>
+              <![CDATA[Selected Date]]>
+            </line>
+            <line>
+              <![CDATA[Clciked On search]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When When the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on flights only</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/24/2018' into 'id.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'xpath.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststepfail"><span class="teststepfail-label">T </span>Then Then verify search results <a href="test-results/22_Feb_2018_06_50_PM/img/testOrbitz_8iepvrtr8ucx31557.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>
+Expected: a value greater than &lt;0&gt;
+     Actual: &lt;0&gt; was equal to &lt;0&gt; <a href="test-results/22_Feb_2018_06_50_PM/img/testOrbitz_8iepvrtr8ucx31557.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOrbitz -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-22T18:51:23Z" finished-at="2018-02-22T18:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testOrbitz status=FAILURE method=scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=Opned browser]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupMethod" is-config="true" duration-ms="1" started-at="2018-02-22T18:51:23Z" finished-at="2018-02-22T18:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method name="testOrbitz" test-instance-name="testOrbitz" signature="testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="FAIL" duration-ms="7126" finished-at="2018-02-22T18:51:31Z" started-at="2018-02-22T18:51:23Z" data-provider="scenariodp" description="end to end">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{origin=Pune, destination=Delhi}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <button type="button" class="datepicker-close-btn close btn-text">...</button> is not clickable at point (554, 738). Other element would receive the click: <footer data-tid="typeahead-footer" class="footer" role="application">...</footer>
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11492', ip: '192.168.238.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAVITE~1.PAL\AppData\Local\Temp\scoped_dir14508_16491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.167, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4b6ccce61a4e91fcb8f383cdabbe99d9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button type="button" class="datepicker-close-btn close btn-text">...</button> is not clickable at point (554, 738). Other element would receive the click: <footer data-tid="typeahead-footer" class="footer" role="application">...</footer>
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11492', ip: '192.168.238.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAVITE~1.PAL\AppData\Local\Temp\scoped_dir14508_16491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.167, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4b6ccce61a4e91fcb8f383cdabbe99d9
+	at .And And enter departing date for one way booking(scenarios/test.bdd:11)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver.executeWitoutLog(QAFExtendedWebDriver.java:256)
+	at com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebElement.execute(QAFExtendedWebElement.java:252)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.qmetry.qaf.automation.step.CommonStep.click_aroundBody50(CommonStep.java:648)
+	at com.qmetry.qaf.automation.step.JavaStepReporter$MockJavaStep.doExecute(JavaStepReporter.java:138)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.JavaStepReporter.javaTestStep(JavaStepReporter.java:88)
+	at com.qmetry.qaf.automation.step.CommonStep.click(CommonStep.java:647)
+	at com.orbitz.steps.FlightsPageSteps.selectingDepartingDate(FlightsPageSteps.java:87)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(DataDrivenScenario.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Opned browser]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on flights]]>
+            </line>
+            <line>
+              <![CDATA[Clciked On flights only]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on One Way]]>
+            </line>
+            <line>
+              <![CDATA[Entered Origin]]>
+            </line>
+            <line>
+              <![CDATA[Entered Destination]]>
+            </line>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When When the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on flights only</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Pune' and 'Delhi'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>And And enter departing date for one way booking <a href="test-results/22_Feb_2018_06_50_PM/img/testOrbitz_1vwbpz85w4moy31558.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '02/24/2018' into 'id.flightdeparting.flightspage'</div><div  class="teststepfail"><span class="teststepfail-label">T </span>click on 'xpath.calendarclosebutton.flightspage'</div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>org.openqa.selenium.WebDriverException: unknown error: Element <button type="button" class="datepicker-close-btn close btn-text">...</button> is not clickable at point (554, 738). Other element would receive the click: <footer data-tid="typeahead-footer" class="footer" role="application">...</footer>
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11492', ip: '192.168.238.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAVITE~1.PAL\AppData\Local\Temp\scoped_dir14508_16491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.167, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4b6ccce61a4e91fcb8f383cdabbe99d9</div></div><div  class="fail"><span class="fail-label">F </span>unknown error: Element <button type="button" class="datepicker-close-btn close btn-text">...</button> is not clickable at point (554, 738). Other element would receive the click: <footer data-tid="typeahead-footer" class="footer" role="application">...</footer>
+  (Session info: chrome=64.0.3282.167)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'ICPL11492', ip: '192.168.238.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: com.qmetry.qaf.automation.ui.webdriver.QAFExtendedWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\RAVITE~1.PAL\AppData\Local\Temp\scoped_dir14508_16491}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=64.0.3282.167, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 4b6ccce61a4e91fcb8f383cdabbe99d9</div></div><div  class="teststep"><span class="teststep-label">T </span>And And click on Search</div><div  class="teststep"><span class="teststep-label">T </span>Then Then verify search results</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testOrbitz -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-02-22T18:51:31Z" finished-at="2018-02-22T18:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=testOrbitz status=FAILURE method=scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=Opned browser]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterClass" is-config="true" duration-ms="1" started-at="2018-02-22T18:51:31Z" finished-at="2018-02-22T18:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterTest" is-config="true" duration-ms="53" started-at="2018-02-22T18:51:31Z" finished-at="2018-02-22T18:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterSuit" is-config="true" duration-ms="1" started-at="2018-02-22T18:51:31Z" finished-at="2018-02-22T18:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51399530]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- orbitz-project-assignment.scenarios.test.bdd -->
+</testng-results>

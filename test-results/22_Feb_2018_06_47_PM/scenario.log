@@ -1,0 +1,31 @@
+18:47:38 scenario.file.loc[Ljava.lang.String;@5db250b4
+18:47:38 loading BDD file: scenarios/test.bdd
+18:47:38 total test found: 1
+18:47:38 
+
+Executing scenario: testOrbitz - end to end
+18:47:38 Test Data{origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}
+18:47:38 pkg: com.qmetry.qaf.automation.step
+18:47:39 pkg: com.orbitz.steps
+18:47:39 Found duplicate step to load [] with [lower] prority then []
+18:47:39 Invoking Teststep: Given Given command to open broswer
+18:47:50 Completed Teststep: Given Given command to open broswer
+18:47:50 Invoking Teststep: When When the user is on homepage click on flights
+18:47:51 Completed Teststep: When When the user is on homepage click on flights
+18:47:51 Invoking Teststep: And And when the user is on flights page click on flights only
+18:47:52 Completed Teststep: And And when the user is on flights page click on flights only
+18:47:52 Invoking Teststep: And And when the user is on flights page click on one way
+18:47:53 Completed Teststep: And And when the user is on flights page click on one way
+18:47:53 Invoking Teststep: And And when the user is booking one way enter '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+18:47:54 Completed Teststep: And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' with arguments: [${origin}, ${destination}]
+18:47:54 Invoking Teststep: And And enter departing date for one way booking
+18:47:54 Invoking Teststep: sendKeys {text} into {loc} with arguments: [02/24/2018, id.flightdeparting.flightspage]
+18:47:55 Completed Teststep: sendKeys {text} into {loc} with arguments: [02/24/2018, id.flightdeparting.flightspage]
+18:47:55 Invoking Teststep: click on {loc} with arguments: [xpath.calendarclosebutton.flightspage]
+18:47:55 Completed Teststep: click on {loc} with arguments: [xpath.calendarclosebutton.flightspage]
+18:47:55 Completed Teststep: And And enter departing date for one way booking
+18:47:55 Invoking Teststep: And And click on Search
+18:48:00 Completed Teststep: And And click on Search
+18:48:00 Invoking Teststep: Then Then verify search results
+18:48:01 Completed Teststep: Then Then verify search results
+18:48:01 Competed scenario: testOrbitz with status SUCESS

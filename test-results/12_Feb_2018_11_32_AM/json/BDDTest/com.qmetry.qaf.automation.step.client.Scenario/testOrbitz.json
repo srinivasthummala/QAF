@@ -1,0 +1,403 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 18205
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1146
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnFlights",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=primary-header-flight, using=id}"
+          ],
+          "result": "id: 0.21749706131605961-1",
+          "subLogs": [],
+          "duration": 91
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: primary-header-flight",
+            "{\"id\":\"0.21749706131605961-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 274
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickFlightsOnly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=tab-flight-tab, using=id}"
+          ],
+          "result": "id: 0.21749706131605961-2",
+          "subLogs": [],
+          "duration": 7995
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: tab-flight-tab",
+            "{\"id\":\"0.21749706131605961-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 132
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOneWay",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-type-one-way-label, using=id}"
+          ],
+          "result": "id: 0.21749706131605961-3",
+          "subLogs": [],
+          "duration": 33
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-type-one-way-label",
+            "{\"id\":\"0.21749706131605961-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 142
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterOriginAndDestination",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-origin, using=id}"
+          ],
+          "result": "id: 0.21749706131605961-4",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-origin",
+            "{\"id\":\"0.21749706131605961-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 116
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Pune, India (PNQ-Lohegaon), id.flightsorigin.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-origin, using=id}"
+              ],
+              "result": "id: 0.21749706131605961-4",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-origin",
+                "{\"id\":\"0.21749706131605961-4\",\"value\":[\"Pune, India (PNQ-Lohegaon)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 518
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[id.flightsdestination.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-destination, using=id}"
+              ],
+              "result": "id: 0.21749706131605961-5",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.id: flight-destination",
+                "{\"id\":\"0.21749706131605961-5\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 99
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[Delhi, India (DEL-Indira Gandhi Intl.), id.flightsdestination.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-destination, using=id}"
+              ],
+              "result": "id: 0.21749706131605961-5",
+              "subLogs": [],
+              "duration": 14
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-destination",
+                "{\"id\":\"0.21749706131605961-5\",\"value\":[\"Delhi, India (DEL-Indira Gandhi Intl.)\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 609
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectingDepartingDate",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-departing, using=id}"
+          ],
+          "result": "id: 0.21749706131605961-6",
+          "subLogs": [],
+          "duration": 26
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-departing",
+            "{\"id\":\"0.21749706131605961-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 122
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[02/14/2018, id.flightdeparting.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=flight-departing, using=id}"
+              ],
+              "result": "id: 0.21749706131605961-6",
+              "subLogs": [],
+              "duration": 21
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.id: flight-departing",
+                "{\"id\":\"0.21749706131605961-6\",\"value\":[\"02/14/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 115
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=flight-departing, using=id}"
+          ],
+          "result": "id: 0.21749706131605961-6",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.id: flight-departing",
+            "{\"id\":\"0.21749706131605961-6\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 44
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Given command to open broswer",
+      "type": "TestStepPass",
+      "duration": 23251,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When When the user is on homepage click on flights",
+      "type": "TestStepPass",
+      "duration": 413,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on flights only",
+      "type": "TestStepPass",
+      "duration": 8129,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on one way",
+      "type": "TestStepPass",
+      "duration": 177,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is booking one way enter origin and destination",
+      "type": "TestStepPass",
+      "duration": 1426,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys 'Pune, India (PNQ-Lohegaon)' into 'id.flightsorigin.flightspage'",
+          "type": "TestStepPass",
+          "duration": 534,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'id.flightsdestination.flightspage'",
+          "type": "TestStepPass",
+          "duration": 119,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys 'Delhi, India (DEL-Indira Gandhi Intl.)' into 'id.flightsdestination.flightspage'",
+          "type": "TestStepPass",
+          "duration": 624,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And enter departing date for one way booking",
+      "type": "TestStepPass",
+      "duration": 290,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "sendKeys '02/14/2018' into 'id.flightdeparting.flightspage'",
+          "type": "TestStepPass",
+          "duration": 138,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then Then click on Search",
+      "type": "TestStepPass",
+      "duration": 59,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}
