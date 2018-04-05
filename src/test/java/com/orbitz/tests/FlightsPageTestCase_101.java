@@ -6,7 +6,6 @@ import java.util.Map;
 import org.testng.annotations.Test;
 import com.orbitz.pages.FlightstPageInfo;
 import com.orbitz.pages.SearchResultsFlightsPage;
-import com.orbitz.utils.FlightsPageData;
 import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 
