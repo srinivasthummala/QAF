@@ -4,8 +4,9 @@
 	<!-- <parameter name="driver.name" value="firefoxDriver" /> -->
 	
 	<test name="BDD Test" enabled="true">
+	   <parameter name="scenario.file.loc" value="scenarios" />
 		<classes>
-			<class name="com.orbitz.steps.FlightsPageSteps"></class>
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory"></class>
 		</classes>
 	</test>
 	

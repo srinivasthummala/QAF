@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.openqa.selenium.Keys;
 import org.testng.Reporter;
 
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
@@ -18,22 +17,22 @@ public class FlightstPageInfo extends WebDriverBaseTestPage<WebDriverTestPage> {
 	@FindBy(locator = "id.flights.flightshomepage")
 	private QAFWebElement idFlightsFlightshomepage;
 
-	@FindBy(locator = "id.flightsonly.flightspage")
+	@FindBy(locator = "css.flightsonly.flightspage")
 	private QAFWebElement idFlightsonlyFlightspage;
 
-	@FindBy(locator = "id.onewaybutton.flightspage")
+	@FindBy(locator = "css.onewaybutton.flightspage")
 	private QAFWebElement idOnewaybuttonFlightspage;
 
-	@FindBy(locator = "id.flightsorigin.flightspage")
+	@FindBy(locator = "css.flightsorigin.flightspage")
 	private QAFWebElement idFlightsoriginFlightspage;
 
-	@FindBy(locator = "id.flightsdestination.flightspage")
+	@FindBy(locator = "xpath.flightsdestination.flightspage")
 	private QAFWebElement idFlightsdestinationFlightspage;
 
-	@FindBy(locator = "id.flightdeparting.flightspage")
+	@FindBy(locator = "css.flightdeparting.flightspage")
 	private QAFWebElement idFlightdepartingFlightspage;
 
-	@FindBy(locator = "xpath.calendarclosebutton.flightspage")
+	@FindBy(locator = "css.calendarclosebutton.flightspage")
 	private QAFWebElement xpathCalendarclosebuttonFlightspage;
 
 	@FindBy(locator = "id.searchbutton.flightspage")
@@ -112,24 +111,25 @@ public class FlightstPageInfo extends WebDriverBaseTestPage<WebDriverTestPage> {
 	}
 
 	public void clickOnFlightOrigin() throws Exception {
-
-		idFlightsoriginFlightspage.click();
-		Thread.sleep(1000);
+ System.out.println("Test");
+		idFlightsoriginFlightspage.clear();
+		idFlightdepartingFlightspage.click();
+		System.out.println("Clicked");
 		idFlightsoriginFlightspage.sendKeys("Pune");
-		Thread.sleep(1000);
+		/*Thread.sleep(1000);
 		idFlightsoriginFlightspage.sendKeys(Keys.ARROW_DOWN);
 		idFlightsoriginFlightspage.sendKeys(Keys.ENTER);
-		Reporter.log("Entered Origin");
+		Reporter.log("Entered Origin");*/
 	}
 	public void clickOnFlightDestination() throws Exception {
 
-		idFlightsdestinationFlightspage.click();
-		Thread.sleep(1000);
+		idFlightsdestinationFlightspage.clear();
+		
 		idFlightsdestinationFlightspage.sendKeys("Delhi");
-		Thread.sleep(1000);
+		/*Thread.sleep(1000);
 		idFlightsdestinationFlightspage.sendKeys(Keys.ARROW_DOWN);
 		idFlightsdestinationFlightspage.sendKeys(Keys.ENTER);
-		Reporter.log("Entered Destination");
+		Reporter.log("Entered Destination");*/
 	}
 	public void selectDate() throws InterruptedException {
 

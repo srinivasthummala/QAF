@@ -36,18 +36,18 @@ public class FlightsPageSteps extends WebDriverBaseTestPage<WebDriverTestPage> {
 		Reporter.log("Opned browser");
 	}
 
-	@QAFTestStep(description = "When the user is on homepage click on flights")
+	/*@QAFTestStep(description = "When the user is on homepage click on flights")
 	public void clickOnFlights() {
 
 		click("id.flights.flightshomepage");
 		System.out.println("Cicked on Flights");
 		Reporter.log("Clicked on flights");
-	}
+	}*/
 
-	@QAFTestStep(description = "And when the user is on flights page click on flights only")
+	@QAFTestStep(description = "when the user is on homepage click on flights")
 	public void clickFlightsOnly() {
 
-		click("id.flightsonly.flightspage");
+		click("css.flightsonly.flightspage");
 		System.out.println("Clicked on Flights only");
 		Reporter.log("Clciked On flights only");
 	}
@@ -55,7 +55,7 @@ public class FlightsPageSteps extends WebDriverBaseTestPage<WebDriverTestPage> {
 	@QAFTestStep(description = "And when the user is on flights page click on one way")
 	public void clickOneWay() {
 
-		click("id.onewaybutton.flightspage");
+		click("css.onewaybutton.flightspage");
 		System.out.println("Clicked on one way");
 		Reporter.log("Clicked on One Way");
 	}
@@ -80,10 +80,10 @@ public class FlightsPageSteps extends WebDriverBaseTestPage<WebDriverTestPage> {
 		calendar.add(calendar.DATE, 2);
 		date = calendar.getTime();
 		String stringDepartingDate = format.format(date);
-		click("id.flightdeparting.flightspage");
-		clear("id.flightdeparting.flightspage");
-		sendKeys(stringDepartingDate, "id.flightdeparting.flightspage");
-		click("xpath.calendarclosebutton.flightspage");
+		click("css.flightdeparting.flightspage");
+		clear("css.flightdeparting.flightspage");
+		sendKeys(stringDepartingDate, "css.flightdeparting.flightspage");
+		click("css.calendarclosebutton.flightspage");
 		System.out.println("Entered Date" + stringDepartingDate);
 		Reporter.log("Selected Date");
 	}
@@ -96,11 +96,11 @@ public class FlightsPageSteps extends WebDriverBaseTestPage<WebDriverTestPage> {
 		Reporter.log("Clciked On search");
 	}
 
-	@FindBy(locator = "xpath.flightsearchresultpage")
-	private List<FlightBookingComponentClass> xpathFlightsearchresultpage;
+	@FindBy(locator = "css.flightsearchresultpage")
+	private List<FlightBookingComponentClass> flightsearchresultpage;
 
 	public List<FlightBookingComponentClass> getXpathFlightsearchresultpage() {
-		return xpathFlightsearchresultpage;
+		return flightsearchresultpage;
 	}
 
 	@QAFTestStep(description = "Then verify search results")
@@ -108,10 +108,10 @@ public class FlightsPageSteps extends WebDriverBaseTestPage<WebDriverTestPage> {
 
 		Validator.verifyThat(getXpathFlightsearchresultpage().size(),
 				Matchers.greaterThan(0));
-		int size = xpathFlightsearchresultpage.size();
+		int size = flightsearchresultpage.size();
 		System.out.println("Total Flights shown:" + size);
 		System.out.println("Validates greater then zero");
-		for (FlightBookingComponentClass results : xpathFlightsearchresultpage) {
+		for (FlightBookingComponentClass results : flightsearchresultpage) {
 
 			if (i < 6) {
 				Reporter.log("FlightName:" + results.getCssFlightname().getText());

@@ -1,8 +1,8 @@
 id.flights.flightshomepage = {\"locator\":\"id=primary-header-flight\",\"desc\":\"orbitz homepage flights button\"}
-id.flightsonly.flightspage = {\"locator\":\"id=tab-flight-tab\",\"desc\":\"flights only button flights page\"}
-id.onewaybutton.flightspage = {\"locator\":\"id=flight-type-one-way-label\",\"desc\":\"oneway label flights page\"}
-id.flightsorigin.flightspage = {\"locator\":\"id=flight-origin\",\"desc\":\"flight origin textfield flights page\"}
-id.flightsdestination.flightspage = {\"locator\":\"id=flight-destination\",\"desc\":\"flight destination textfiled flights page\"}
-id.flightdeparting.flightspage = {\"locator\":\"id=flight-departing\",\"desc\":\"flight departing textfiled flights page\"}
-xpath.calendarclosebutton.flightspage = {\"locator\":\"xpath=.//*[@id='flight-departing-wrapper']/div/div/div[1]/button\",\"desc\":\"calendar close button flights page\"}
-id.searchbutton.flightspage = {\"locator\":\"id=search-button\",\"desc\":\"search button on flights page\"}
+id.searchbutton.flightspage = {\"locator\":\"xpath=//*[@id=\\\"gcw-flights-form-hp-flight\\\"]/div[@class='cols-nested']//button[@class='btn-primary btn-action gcw-submit ']\",\"desc\":\"search button on flights page\"}
+css.flightsonly.flightspage = {\"locator\":\"css=[id^='tab-flight-tab']\",\"desc\":\"flights only button flights page\"}
+css.onewaybutton.flightspage = {\"locator\":\"css=[id^='flight-type-one-way-label']\",\"desc\":\"oneway label flights page\"}
+xpath.flightsdestination.flightspage = {\"locator\":\"xpath=//span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')]\",\"desc\":\"flight destination textfiled flights page\"}
+css.flightdeparting.flightspage = {\"locator\":\"css=[id^='flight-departing'] *[id^='flight-departing-single']\",\"desc\":\"flight departing textfiled flights page\"}
+css.calendarclosebutton.flightspage = {\"locator\":\"css=[class='datepicker-close-btn close btn-text']\",\"desc\":\"calendar close button flights page\"}
+css.flightsorigin.flightspage = {\"locator\":\"css=label [id^='flight-origin-hp-flight']\",\"desc\":\"flight origin textfield flights page\"}

@@ -1,7 +1,5 @@
 com\orbitz\tests\FlightsPageTestCase_101.class
-com\orbitz\pages\FlightsTestPage.class
+.gitignore
 com\orbitz\steps\FlightsPageSteps.class
-com\orbitz\pages\SearchreslutsflightsTestPage.class
 com\orbitz\utils\FlightsPageData.class
-com\orbitz\utils\Listeners.class
 FlightBookingComponents\FlightBookingComponentClass.class

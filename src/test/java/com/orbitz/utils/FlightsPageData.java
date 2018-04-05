@@ -1,7 +1,6 @@
 package com.orbitz.utils;
 import java.util.List;
 
-import java.util.Map;
 import org.testng.Reporter;
 import com.orbitz.pages.FlightstPageInfo;
 import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;

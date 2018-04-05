@@ -14,17 +14,18 @@ public class FlightsPageTestCase_101 extends WebDriverTestCase {
 
 		FlightstPageInfo flights = new FlightstPageInfo();
 		flights.launch();
-		flights.clickOnFlightsButton();
+		//flights.clickOnFlightsButton();
 		flights.clickOnFlightsOnlyButton();
 		flights.clickOnOneWay();
-		// flights.clickOnFlightOrigin();
-		// flights.clickOnFlightDestination();
+		//flights.clickOnFlightOrigin();
+		//flights.clickOnFlightDestination();
 		FlightsPageData data = new FlightsPageData();
 		data.dataForFlightsOriginDestination();
 		flights.selectDate();
 		flights.clickOnSearchButton();
 		SearchResultsFlightsPage resultPage = new SearchResultsFlightsPage();
-		// resultPage.verifyResults();
+		resultPage.waitForPageToLoad();
+		//resultPage.verifyResults();
 		resultPage.selectFlightByIndex(0);
 
 	}

@@ -5,9 +5,8 @@
 		<destination>Mumbai, India (BOM-Chhatrapati Shivaji Intl.)
 		</destination>
 	</location>
-	<location>
+	<!-- <location>
 		<origin>Pune </origin>
-		<destination>Delhi
-		</destination>
-	</location>
+		<destination>Delhi</destination>
+	</location> -->
 </testdata>

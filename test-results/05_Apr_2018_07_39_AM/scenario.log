@@ -1,0 +1,31 @@
+13:09:28 scenario.file.loc[Ljava.lang.String;@7f77e91b
+13:09:28 loading BDD file: C:\Users\srinivas.thummala\QASWorkspace\week3assignrepo\scenarios\test.bdd
+13:09:28 total test found: 1
+13:09:29 
+
+Executing scenario: testOrbitz - end to end
+13:09:29 Test Data{origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}
+13:09:29 pkg: com.qmetry.qaf.automation.step
+13:09:29 pkg: com.orbitz.steps
+13:09:29 Found duplicate step to load [] with [lower] prority then []
+13:09:29 Invoking Teststep: Given Given command to open broswer
+13:09:39 Completed Teststep: Given Given command to open broswer
+13:09:39 Invoking Teststep: When when the user is on homepage click on flights
+13:09:39 Completed Teststep: When when the user is on homepage click on flights
+13:09:39 Invoking Teststep: And And when the user is on flights page click on one way
+13:09:40 Completed Teststep: And And when the user is on flights page click on one way
+13:09:40 Invoking Teststep: And And when the user is booking one way enter '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+13:09:44 Completed Teststep: And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' with arguments: [${origin}, ${destination}]
+13:09:44 Invoking Teststep: And And enter departing date for one way booking
+13:09:44 Invoking Teststep: clear {loc} with arguments: [css.flightdeparting.flightspage]
+13:09:44 Completed Teststep: clear {loc} with arguments: [css.flightdeparting.flightspage]
+13:09:44 Invoking Teststep: sendKeys {text} into {loc} with arguments: [04/07/2018, css.flightdeparting.flightspage]
+13:09:44 Completed Teststep: sendKeys {text} into {loc} with arguments: [04/07/2018, css.flightdeparting.flightspage]
+13:09:44 Invoking Teststep: click on {loc} with arguments: [css.calendarclosebutton.flightspage]
+13:09:45 Completed Teststep: click on {loc} with arguments: [css.calendarclosebutton.flightspage]
+13:09:45 Completed Teststep: And And enter departing date for one way booking
+13:09:45 Invoking Teststep: And And click on Search
+13:09:53 Completed Teststep: And And click on Search
+13:09:53 Invoking Teststep: Then Then verify search results
+13:09:54 Completed Teststep: Then Then verify search results
+13:09:54 Competed scenario: testOrbitz with status SUCESS

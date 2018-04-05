@@ -44,7 +44,6 @@ public class SearchResultsFlightsPage extends WebDriverBaseTestPage<WebDriverTes
 		return idContinueButtonResultsPage;
 	}
 
-	
 	@FindBy(locator = "css.flightsearchresultpage")
 	private List<FlightBookingComponentClass> xpathFlightsearchresultpage;
 
@@ -96,6 +95,12 @@ public class SearchResultsFlightsPage extends WebDriverBaseTestPage<WebDriverTes
 		 */
 		bean.info();
 		cssSelectButtonResultsPage.click();
+		try {
+			Thread.sleep(30000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		FlightBookingWindowHandle.windowHandle();
 		Validator.verifyThat(true, Matchers.equalTo(true));
 		Validator.verifyThat(bean.getFlightName(),

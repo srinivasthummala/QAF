@@ -1,0 +1,800 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "launch",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.orbitz.com/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 5120
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1159
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickFlightsOnly",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=[id^='tab-flight-tab'], using=css selector}"
+          ],
+          "result": "id: 0.5217506895623212-1",
+          "subLogs": [],
+          "duration": 234
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: [id^='tab-flight-tab']",
+            "{\"id\":\"0.5217506895623212-1\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 412
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOneWay",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=[id^='flight-type-one-way-label'], using=css selector}"
+          ],
+          "result": "id: 0.5217506895623212-2",
+          "subLogs": [],
+          "duration": 123
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: [id^='flight-type-one-way-label']",
+            "{\"id\":\"0.5217506895623212-2\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 119
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "enterOriginAndDestination",
+      "args": [
+        "[${origin}, ${destination}]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=label [id^='flight-origin-hp-flight'], using=css selector}"
+          ],
+          "result": "id: 0.5217506895623212-3",
+          "subLogs": [],
+          "duration": 43
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: label [id^='flight-origin-hp-flight']",
+            "{\"id\":\"0.5217506895623212-3\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 224
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=label [id^='flight-origin-hp-flight'], using=css selector}"
+          ],
+          "result": "id: 0.5217506895623212-3",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.cssSelector: label [id^='flight-origin-hp-flight']",
+            "{\"id\":\"0.5217506895623212-3\",\"value\":[\"Hyderabad, India (HYD-Rajiv Gandhi Intl.)\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1962
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')], using=xpath}"
+          ],
+          "result": "id: 0.5217506895623212-4",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')]",
+            "{\"id\":\"0.5217506895623212-4\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 219
+        },
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')], using=xpath}"
+          ],
+          "result": "id: 0.5217506895623212-4",
+          "subLogs": [],
+          "duration": 14
+        },
+        {
+          "commandName": "sendKeysToElement",
+          "args": [
+            "By.xpath: //span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')]",
+            "{\"id\":\"0.5217506895623212-4\",\"value\":[\"Mumbai, India (BOM-Chhatrapati Shivaji Intl.)\"]}"
+          ],
+          "result": "sendKeysToElement:null",
+          "subLogs": [],
+          "duration": 1722
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "selectingDepartingDate",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+          ],
+          "result": "id: 0.5217506895623212-5",
+          "subLogs": [],
+          "duration": 27
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+            "{\"id\":\"0.5217506895623212-5\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 235
+        },
+        {
+          "commandName": "clear",
+          "args": [
+            "[css.flightdeparting.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+              ],
+              "result": "id: 0.5217506895623212-5",
+              "subLogs": [],
+              "duration": 18
+            },
+            {
+              "commandName": "clearElement",
+              "args": [
+                "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+                "{\"id\":\"0.5217506895623212-5\"}"
+              ],
+              "result": "clearElement:null",
+              "subLogs": [],
+              "duration": 27
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "sendKeys",
+          "args": [
+            "[04/07/2018, css.flightdeparting.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+              ],
+              "result": "id: 0.5217506895623212-5",
+              "subLogs": [],
+              "duration": 10
+            },
+            {
+              "commandName": "sendKeysToElement",
+              "args": [
+                "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+                "{\"id\":\"0.5217506895623212-5\",\"value\":[\"04/07/2018\"]}"
+              ],
+              "result": "sendKeysToElement:null",
+              "subLogs": [],
+              "duration": 262
+            }
+          ],
+          "duration": -1
+        },
+        {
+          "commandName": "click",
+          "args": [
+            "[css.calendarclosebutton.flightspage]"
+          ],
+          "result": "success",
+          "subLogs": [
+            {
+              "commandName": "findElement",
+              "args": [
+                "{value=[class='datepicker-close-btn close btn-text'], using=css selector}"
+              ],
+              "result": "id: 0.5217506895623212-6",
+              "subLogs": [],
+              "duration": 21
+            },
+            {
+              "commandName": "clickElement",
+              "args": [
+                "By.cssSelector: [class='datepicker-close-btn close btn-text']",
+                "{\"id\":\"0.5217506895623212-6\"}"
+              ],
+              "result": "clickElement:null",
+              "subLogs": [],
+              "duration": 117
+            }
+          ],
+          "duration": -1
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "clickOnSearchButton",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElement",
+          "args": [
+            "{value=//*[@id=\"gcw-flights-form-hp-flight\"]/div[@class='cols-nested']//button[@class='btn-primary btn-action gcw-submit '], using=xpath}"
+          ],
+          "result": "id: 0.5217506895623212-7",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "clickElement",
+          "args": [
+            "By.xpath: //*[@id=\"gcw-flights-form-hp-flight\"]/div[@class='cols-nested']//button[@class='btn-primary btn-action gcw-submit ']",
+            "{\"id\":\"0.5217506895623212-7\"}"
+          ],
+          "result": "clickElement:null",
+          "subLogs": [],
+          "duration": 8315
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "verifySearchResults",
+      "args": [
+        "[]"
+      ],
+      "result": "success",
+      "subLogs": [
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.grid-container.standard-padding, using=css selector}"
+          ],
+          "result": "[id: 0.20791968030823882-1, id: 0.20791968030823882-2, id: 0.20791968030823882-3, id: 0.20791968030823882-4, id: 0.20791968030823882-5, id: 0.20791968030823882-6, id: 0.20791968030823882-7, id: 0.20791968030823882-8, id: 0.20791968030823882-9, id: 0.20791968030823882-10, id: 0.20791968030823882-11, id: 0.20791968030823882-12, id: 0.20791968030823882-13, id: 0.20791968030823882-14, id: 0.20791968030823882-15, id: 0.20791968030823882-16, id: 0.20791968030823882-17, id: 0.20791968030823882-18, id: 0.20791968030823882-19, id: 0.20791968030823882-20, id: 0.20791968030823882-21, id: 0.20791968030823882-22, id: 0.20791968030823882-23, id: 0.20791968030823882-24, id: 0.20791968030823882-25, id: 0.20791968030823882-26, id: 0.20791968030823882-27, id: 0.20791968030823882-28, id: 0.20791968030823882-29, id: 0.20791968030823882-30, id: 0.20791968030823882-31, id: 0.20791968030823882-32, id: 0.20791968030823882-33, id: 0.20791968030823882-34, id: 0.20791968030823882-35, id: 0.20791968030823882-36, id: 0.20791968030823882-37, id: 0.20791968030823882-38, id: 0.20791968030823882-39, id: 0.20791968030823882-40, id: 0.20791968030823882-41, id: 0.20791968030823882-42, id: 0.20791968030823882-43, id: 0.20791968030823882-44, id: 0.20791968030823882-45, id: 0.20791968030823882-46, id: 0.20791968030823882-47, id: 0.20791968030823882-48, id: 0.20791968030823882-49, id: 0.20791968030823882-50, id: 0.20791968030823882-51, id: 0.20791968030823882-52, id: 0.20791968030823882-53, id: 0.20791968030823882-54, id: 0.20791968030823882-55, id: 0.20791968030823882-56, id: 0.20791968030823882-57, id: 0.20791968030823882-58, id: 0.20791968030823882-59, id: 0.20791968030823882-60, id: 0.20791968030823882-61, id: 0.20791968030823882-62]",
+          "subLogs": [],
+          "duration": 36
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.grid-container.standard-padding, using=css selector}"
+          ],
+          "result": "[id: 0.20791968030823882-1, id: 0.20791968030823882-2, id: 0.20791968030823882-3, id: 0.20791968030823882-4, id: 0.20791968030823882-5, id: 0.20791968030823882-6, id: 0.20791968030823882-7, id: 0.20791968030823882-8, id: 0.20791968030823882-9, id: 0.20791968030823882-10, id: 0.20791968030823882-11, id: 0.20791968030823882-12, id: 0.20791968030823882-13, id: 0.20791968030823882-14, id: 0.20791968030823882-15, id: 0.20791968030823882-16, id: 0.20791968030823882-17, id: 0.20791968030823882-18, id: 0.20791968030823882-19, id: 0.20791968030823882-20, id: 0.20791968030823882-21, id: 0.20791968030823882-22, id: 0.20791968030823882-23, id: 0.20791968030823882-24, id: 0.20791968030823882-25, id: 0.20791968030823882-26, id: 0.20791968030823882-27, id: 0.20791968030823882-28, id: 0.20791968030823882-29, id: 0.20791968030823882-30, id: 0.20791968030823882-31, id: 0.20791968030823882-32, id: 0.20791968030823882-33, id: 0.20791968030823882-34, id: 0.20791968030823882-35, id: 0.20791968030823882-36, id: 0.20791968030823882-37, id: 0.20791968030823882-38, id: 0.20791968030823882-39, id: 0.20791968030823882-40, id: 0.20791968030823882-41, id: 0.20791968030823882-42, id: 0.20791968030823882-43, id: 0.20791968030823882-44, id: 0.20791968030823882-45, id: 0.20791968030823882-46, id: 0.20791968030823882-47, id: 0.20791968030823882-48, id: 0.20791968030823882-49, id: 0.20791968030823882-50, id: 0.20791968030823882-51, id: 0.20791968030823882-52, id: 0.20791968030823882-53, id: 0.20791968030823882-54, id: 0.20791968030823882-55, id: 0.20791968030823882-56, id: 0.20791968030823882-57, id: 0.20791968030823882-58, id: 0.20791968030823882-59, id: 0.20791968030823882-60, id: 0.20791968030823882-61, id: 0.20791968030823882-62]",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findElements",
+          "args": [
+            "{value=.grid-container.standard-padding, using=css selector}"
+          ],
+          "result": "[id: 0.20791968030823882-1, id: 0.20791968030823882-2, id: 0.20791968030823882-3, id: 0.20791968030823882-4, id: 0.20791968030823882-5, id: 0.20791968030823882-6, id: 0.20791968030823882-7, id: 0.20791968030823882-8, id: 0.20791968030823882-9, id: 0.20791968030823882-10, id: 0.20791968030823882-11, id: 0.20791968030823882-12, id: 0.20791968030823882-13, id: 0.20791968030823882-14, id: 0.20791968030823882-15, id: 0.20791968030823882-16, id: 0.20791968030823882-17, id: 0.20791968030823882-18, id: 0.20791968030823882-19, id: 0.20791968030823882-20, id: 0.20791968030823882-21, id: 0.20791968030823882-22, id: 0.20791968030823882-23, id: 0.20791968030823882-24, id: 0.20791968030823882-25, id: 0.20791968030823882-26, id: 0.20791968030823882-27, id: 0.20791968030823882-28, id: 0.20791968030823882-29, id: 0.20791968030823882-30, id: 0.20791968030823882-31, id: 0.20791968030823882-32, id: 0.20791968030823882-33, id: 0.20791968030823882-34, id: 0.20791968030823882-35, id: 0.20791968030823882-36, id: 0.20791968030823882-37, id: 0.20791968030823882-38, id: 0.20791968030823882-39, id: 0.20791968030823882-40, id: 0.20791968030823882-41, id: 0.20791968030823882-42, id: 0.20791968030823882-43, id: 0.20791968030823882-44, id: 0.20791968030823882-45, id: 0.20791968030823882-46, id: 0.20791968030823882-47, id: 0.20791968030823882-48, id: 0.20791968030823882-49, id: 0.20791968030823882-50, id: 0.20791968030823882-51, id: 0.20791968030823882-52, id: 0.20791968030823882-53, id: 0.20791968030823882-54, id: 0.20791968030823882-55, id: 0.20791968030823882-56, id: 0.20791968030823882-57, id: 0.20791968030823882-58, id: 0.20791968030823882-59, id: 0.20791968030823882-60, id: 0.20791968030823882-61, id: 0.20791968030823882-62]",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-1\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-63",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='airline-name']",
+            "{\"id\":\"0.20791968030823882-63\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-1\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-64",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@data-test-id='flight-info']",
+            "{\"id\":\"0.20791968030823882-64\"}"
+          ],
+          "result": "getElementText:Departure airport:\nHYD -\nArrival airport:\nBOM",
+          "subLogs": [],
+          "duration": 24
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-1\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-65",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='listing-price-dollars']",
+            "{\"id\":\"0.20791968030823882-65\"}"
+          ],
+          "result": "getElementText:$61",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-2\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-63",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='airline-name']",
+            "{\"id\":\"0.20791968030823882-63\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 10
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-2\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-64",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@data-test-id='flight-info']",
+            "{\"id\":\"0.20791968030823882-64\"}"
+          ],
+          "result": "getElementText:Departure airport:\nHYD -\nArrival airport:\nBOM",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-2\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-65",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='listing-price-dollars']",
+            "{\"id\":\"0.20791968030823882-65\"}"
+          ],
+          "result": "getElementText:$61",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-3\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-63",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='airline-name']",
+            "{\"id\":\"0.20791968030823882-63\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 12
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-3\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-64",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@data-test-id='flight-info']",
+            "{\"id\":\"0.20791968030823882-64\"}"
+          ],
+          "result": "getElementText:Departure airport:\nHYD -\nArrival airport:\nBOM",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-3\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-65",
+          "subLogs": [],
+          "duration": 30
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='listing-price-dollars']",
+            "{\"id\":\"0.20791968030823882-65\"}"
+          ],
+          "result": "getElementText:$61",
+          "subLogs": [],
+          "duration": 17
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-4\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-63",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='airline-name']",
+            "{\"id\":\"0.20791968030823882-63\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-4\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-64",
+          "subLogs": [],
+          "duration": 20
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@data-test-id='flight-info']",
+            "{\"id\":\"0.20791968030823882-64\"}"
+          ],
+          "result": "getElementText:Departure airport:\nHYD -\nArrival airport:\nBOM",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-4\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-65",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='listing-price-dollars']",
+            "{\"id\":\"0.20791968030823882-65\"}"
+          ],
+          "result": "getElementText:$61",
+          "subLogs": [],
+          "duration": 13
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-5\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-63",
+          "subLogs": [],
+          "duration": 28
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='airline-name']",
+            "{\"id\":\"0.20791968030823882-63\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-5\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-64",
+          "subLogs": [],
+          "duration": 21
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@data-test-id='flight-info']",
+            "{\"id\":\"0.20791968030823882-64\"}"
+          ],
+          "result": "getElementText:Departure airport:\nHYD -\nArrival airport:\nBOM",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-5\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-65",
+          "subLogs": [],
+          "duration": 18
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='listing-price-dollars']",
+            "{\"id\":\"0.20791968030823882-65\"}"
+          ],
+          "result": "getElementText:$61",
+          "subLogs": [],
+          "duration": 11
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-6\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-63",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='airline-name']",
+            "{\"id\":\"0.20791968030823882-63\"}"
+          ],
+          "result": "getElementText:Air India",
+          "subLogs": [],
+          "duration": 9
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-6\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-64",
+          "subLogs": [],
+          "duration": 22
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //div[@data-test-id='flight-info']",
+            "{\"id\":\"0.20791968030823882-64\"}"
+          ],
+          "result": "getElementText:Departure airport:\nHYD -\nArrival airport:\nBOM",
+          "subLogs": [],
+          "duration": 15
+        },
+        {
+          "commandName": "findChildElement",
+          "args": [
+            "By.cssSelector: .grid-container.standard-padding",
+            "{\"using\":\"xpath\",\"id\":\"0.20791968030823882-6\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+          ],
+          "result": "findChildElement:id: 0.20791968030823882-65",
+          "subLogs": [],
+          "duration": 19
+        },
+        {
+          "commandName": "getElementText",
+          "args": [
+            "By.xpath: //span[@data-test-id='listing-price-dollars']",
+            "{\"id\":\"0.20791968030823882-65\"}"
+          ],
+          "result": "getElementText:$61",
+          "subLogs": [],
+          "duration": 13
+        }
+      ],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given Given command to open broswer",
+      "type": "TestStepPass",
+      "duration": 9781,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When when the user is on homepage click on flights",
+      "type": "TestStepPass",
+      "duration": 662,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is on flights page click on one way",
+      "type": "TestStepPass",
+      "duration": 245,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'",
+      "type": "TestStepPass",
+      "duration": 4253,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And And enter departing date for one way booking",
+      "type": "TestStepPass",
+      "duration": 729,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "clear 'css.flightdeparting.flightspage'",
+          "type": "TestStepPass",
+          "duration": 47,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "sendKeys '04/07/2018' into 'css.flightdeparting.flightspage'",
+          "type": "TestStepPass",
+          "duration": 275,
+          "threshold": 0,
+          "subCheckPoints": []
+        },
+        {
+          "message": "click on 'css.calendarclosebutton.flightspage'",
+          "type": "TestStepPass",
+          "duration": 139,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "And And click on Search",
+      "type": "TestStepPass",
+      "duration": 8338,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then Then verify search results",
+      "type": "TestStepPass",
+      "duration": 926,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "\nExpected: a value greater than &lt;0&gt;\n     Actual: &lt;62&gt; was greater than &lt;0&gt;",
+          "type": "Pass",
+          "screenshot": "",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    }
+  ]
+}
