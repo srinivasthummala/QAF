@@ -1,0 +1,488 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.orbitz.com/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 5547
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1155
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[id^='tab-flight-tab'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-1",
+      "subLogs": [],
+      "duration": 207
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: [id^='tab-flight-tab']",
+        "{\"id\":\"0.8836411829516788-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 260
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[id^='flight-type-one-way-label'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-2",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: [id^='flight-type-one-way-label']",
+        "{\"id\":\"0.8836411829516788-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 221
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=label [id^='flight-origin-hp-flight'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-3",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=label [id^='flight-origin-hp-flight'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-3",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.cssSelector: label [id^='flight-origin-hp-flight']",
+        "{\"id\":\"0.8836411829516788-3\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 85
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.cssSelector: label [id^='flight-origin-hp-flight']",
+        "{\"id\":\"0.8836411829516788-3\",\"value\":[\"Pune India (PNQ-Lohegaon\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1129
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')], using=xpath}"
+      ],
+      "result": "id: 0.8836411829516788-4",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')], using=xpath}"
+      ],
+      "result": "id: 0.8836411829516788-4",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.xpath: //span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')]",
+        "{\"id\":\"0.8836411829516788-4\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 76
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.xpath: //span[contains(text(), 'Flying to')]/following-sibling::input[starts-with(@id, 'flight-destination')]",
+        "{\"id\":\"0.8836411829516788-4\",\"value\":[\"Delhi India (DEL-Indira Gandhi Intl.\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 1074
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-5",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+        "{\"id\":\"0.8836411829516788-5\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 213
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-5",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+        "{\"id\":\"0.8836411829516788-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-5",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[id^='flight-departing'] *[id^='flight-departing-single'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-5",
+      "subLogs": [],
+      "duration": 9
+    },
+    {
+      "commandName": "clearElement",
+      "args": [
+        "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+        "{\"id\":\"0.8836411829516788-5\"}"
+      ],
+      "result": "clearElement:null",
+      "subLogs": [],
+      "duration": 11
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.cssSelector: [id^='flight-departing'] *[id^='flight-departing-single']",
+        "{\"id\":\"0.8836411829516788-5\",\"value\":[\"04/07/2018\"]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 171
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[class='datepicker-close-btn close btn-text'], using=css selector}"
+      ],
+      "result": "id: 0.8836411829516788-6",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: [class='datepicker-close-btn close btn-text']",
+        "{\"id\":\"0.8836411829516788-6\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 113
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[@id=\"gcw-flights-form-hp-flight\"]/div[@class='cols-nested']//button[@class='btn-primary btn-action gcw-submit '], using=xpath}"
+      ],
+      "result": "id: 0.8836411829516788-7",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[@id=\"gcw-flights-form-hp-flight\"]/div[@class='cols-nested']//button[@class='btn-primary btn-action gcw-submit ']",
+        "{\"id\":\"0.8836411829516788-7\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 6122
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.grid-container.standard-padding, using=css selector}"
+      ],
+      "result": "[id: 0.9786541872955645-1, id: 0.9786541872955645-2, id: 0.9786541872955645-3, id: 0.9786541872955645-4, id: 0.9786541872955645-5, id: 0.9786541872955645-6, id: 0.9786541872955645-7, id: 0.9786541872955645-8, id: 0.9786541872955645-9, id: 0.9786541872955645-10, id: 0.9786541872955645-11, id: 0.9786541872955645-12, id: 0.9786541872955645-13, id: 0.9786541872955645-14, id: 0.9786541872955645-15, id: 0.9786541872955645-16, id: 0.9786541872955645-17, id: 0.9786541872955645-18, id: 0.9786541872955645-19, id: 0.9786541872955645-20, id: 0.9786541872955645-21, id: 0.9786541872955645-22, id: 0.9786541872955645-23, id: 0.9786541872955645-24, id: 0.9786541872955645-25, id: 0.9786541872955645-26, id: 0.9786541872955645-27, id: 0.9786541872955645-28, id: 0.9786541872955645-29, id: 0.9786541872955645-30, id: 0.9786541872955645-31, id: 0.9786541872955645-32, id: 0.9786541872955645-33, id: 0.9786541872955645-34, id: 0.9786541872955645-35, id: 0.9786541872955645-36, id: 0.9786541872955645-37, id: 0.9786541872955645-38, id: 0.9786541872955645-39, id: 0.9786541872955645-40, id: 0.9786541872955645-41, id: 0.9786541872955645-42, id: 0.9786541872955645-43, id: 0.9786541872955645-44, id: 0.9786541872955645-45, id: 0.9786541872955645-46, id: 0.9786541872955645-47, id: 0.9786541872955645-48, id: 0.9786541872955645-49, id: 0.9786541872955645-50, id: 0.9786541872955645-51, id: 0.9786541872955645-52, id: 0.9786541872955645-53, id: 0.9786541872955645-54, id: 0.9786541872955645-55, id: 0.9786541872955645-56, id: 0.9786541872955645-57, id: 0.9786541872955645-58, id: 0.9786541872955645-59, id: 0.9786541872955645-60, id: 0.9786541872955645-61, id: 0.9786541872955645-62, id: 0.9786541872955645-63, id: 0.9786541872955645-64, id: 0.9786541872955645-65, id: 0.9786541872955645-66, id: 0.9786541872955645-67, id: 0.9786541872955645-68, id: 0.9786541872955645-69, id: 0.9786541872955645-70, id: 0.9786541872955645-71, id: 0.9786541872955645-72, id: 0.9786541872955645-73, id: 0.9786541872955645-74, id: 0.9786541872955645-75, id: 0.9786541872955645-76]",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .grid-container.standard-padding",
+        "{\"using\":\"xpath\",\"id\":\"0.9786541872955645-1\",\"value\":\"//span[@data-test-id='airline-name']\"}"
+      ],
+      "result": "findChildElement:id: 0.9786541872955645-77",
+      "subLogs": [],
+      "duration": 69
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@data-test-id='airline-name']",
+        "{\"id\":\"0.9786541872955645-77\"}"
+      ],
+      "result": "getElementText:Vistara",
+      "subLogs": [],
+      "duration": 93
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.grid-container.standard-padding, using=css selector}"
+      ],
+      "result": "[id: 0.9786541872955645-1, id: 0.9786541872955645-2, id: 0.9786541872955645-3, id: 0.9786541872955645-4, id: 0.9786541872955645-5, id: 0.9786541872955645-6, id: 0.9786541872955645-7, id: 0.9786541872955645-8, id: 0.9786541872955645-9, id: 0.9786541872955645-10, id: 0.9786541872955645-11, id: 0.9786541872955645-12, id: 0.9786541872955645-13, id: 0.9786541872955645-14, id: 0.9786541872955645-15, id: 0.9786541872955645-16, id: 0.9786541872955645-17, id: 0.9786541872955645-18, id: 0.9786541872955645-19, id: 0.9786541872955645-20, id: 0.9786541872955645-21, id: 0.9786541872955645-22, id: 0.9786541872955645-23, id: 0.9786541872955645-24, id: 0.9786541872955645-25, id: 0.9786541872955645-26, id: 0.9786541872955645-27, id: 0.9786541872955645-28, id: 0.9786541872955645-29, id: 0.9786541872955645-30, id: 0.9786541872955645-31, id: 0.9786541872955645-32, id: 0.9786541872955645-33, id: 0.9786541872955645-34, id: 0.9786541872955645-35, id: 0.9786541872955645-36, id: 0.9786541872955645-37, id: 0.9786541872955645-38, id: 0.9786541872955645-39, id: 0.9786541872955645-40, id: 0.9786541872955645-41, id: 0.9786541872955645-42, id: 0.9786541872955645-43, id: 0.9786541872955645-44, id: 0.9786541872955645-45, id: 0.9786541872955645-46, id: 0.9786541872955645-47, id: 0.9786541872955645-48, id: 0.9786541872955645-49, id: 0.9786541872955645-50, id: 0.9786541872955645-51, id: 0.9786541872955645-52, id: 0.9786541872955645-53, id: 0.9786541872955645-54, id: 0.9786541872955645-55, id: 0.9786541872955645-56, id: 0.9786541872955645-57, id: 0.9786541872955645-58, id: 0.9786541872955645-59, id: 0.9786541872955645-60, id: 0.9786541872955645-61, id: 0.9786541872955645-62, id: 0.9786541872955645-63, id: 0.9786541872955645-64, id: 0.9786541872955645-65, id: 0.9786541872955645-66, id: 0.9786541872955645-67, id: 0.9786541872955645-68, id: 0.9786541872955645-69, id: 0.9786541872955645-70, id: 0.9786541872955645-71, id: 0.9786541872955645-72, id: 0.9786541872955645-73, id: 0.9786541872955645-74, id: 0.9786541872955645-75, id: 0.9786541872955645-76]",
+      "subLogs": [],
+      "duration": 49
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .grid-container.standard-padding",
+        "{\"using\":\"xpath\",\"id\":\"0.9786541872955645-1\",\"value\":\"//div[@data-test-id='flight-info']\"}"
+      ],
+      "result": "findChildElement:id: 0.9786541872955645-78",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //div[@data-test-id='flight-info']",
+        "{\"id\":\"0.9786541872955645-78\"}"
+      ],
+      "result": "getElementText:Departure airport:\nPNQ -\nArrival airport:\nDEL",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.grid-container.standard-padding, using=css selector}"
+      ],
+      "result": "[id: 0.9786541872955645-1, id: 0.9786541872955645-2, id: 0.9786541872955645-3, id: 0.9786541872955645-4, id: 0.9786541872955645-5, id: 0.9786541872955645-6, id: 0.9786541872955645-7, id: 0.9786541872955645-8, id: 0.9786541872955645-9, id: 0.9786541872955645-10, id: 0.9786541872955645-11, id: 0.9786541872955645-12, id: 0.9786541872955645-13, id: 0.9786541872955645-14, id: 0.9786541872955645-15, id: 0.9786541872955645-16, id: 0.9786541872955645-17, id: 0.9786541872955645-18, id: 0.9786541872955645-19, id: 0.9786541872955645-20, id: 0.9786541872955645-21, id: 0.9786541872955645-22, id: 0.9786541872955645-23, id: 0.9786541872955645-24, id: 0.9786541872955645-25, id: 0.9786541872955645-26, id: 0.9786541872955645-27, id: 0.9786541872955645-28, id: 0.9786541872955645-29, id: 0.9786541872955645-30, id: 0.9786541872955645-31, id: 0.9786541872955645-32, id: 0.9786541872955645-33, id: 0.9786541872955645-34, id: 0.9786541872955645-35, id: 0.9786541872955645-36, id: 0.9786541872955645-37, id: 0.9786541872955645-38, id: 0.9786541872955645-39, id: 0.9786541872955645-40, id: 0.9786541872955645-41, id: 0.9786541872955645-42, id: 0.9786541872955645-43, id: 0.9786541872955645-44, id: 0.9786541872955645-45, id: 0.9786541872955645-46, id: 0.9786541872955645-47, id: 0.9786541872955645-48, id: 0.9786541872955645-49, id: 0.9786541872955645-50, id: 0.9786541872955645-51, id: 0.9786541872955645-52, id: 0.9786541872955645-53, id: 0.9786541872955645-54, id: 0.9786541872955645-55, id: 0.9786541872955645-56, id: 0.9786541872955645-57, id: 0.9786541872955645-58, id: 0.9786541872955645-59, id: 0.9786541872955645-60, id: 0.9786541872955645-61, id: 0.9786541872955645-62, id: 0.9786541872955645-63, id: 0.9786541872955645-64, id: 0.9786541872955645-65, id: 0.9786541872955645-66, id: 0.9786541872955645-67, id: 0.9786541872955645-68, id: 0.9786541872955645-69, id: 0.9786541872955645-70, id: 0.9786541872955645-71, id: 0.9786541872955645-72, id: 0.9786541872955645-73, id: 0.9786541872955645-74, id: 0.9786541872955645-75, id: 0.9786541872955645-76]",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .grid-container.standard-padding",
+        "{\"using\":\"xpath\",\"id\":\"0.9786541872955645-1\",\"value\":\"//span[@data-test-id='listing-price-dollars']\"}"
+      ],
+      "result": "findChildElement:id: 0.9786541872955645-79",
+      "subLogs": [],
+      "duration": 55
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.xpath: //span[@data-test-id='listing-price-dollars']",
+        "{\"id\":\"0.9786541872955645-79\"}"
+      ],
+      "result": "getElementText:$115",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.btn-secondary.btn-action.t-select-btn, using=css selector}"
+      ],
+      "result": "id: 0.9786541872955645-80",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: .btn-secondary.btn-action.t-select-btn",
+        "{\"id\":\"0.9786541872955645-80\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 264
+    },
+    {
+      "commandName": "getCurrentWindowHandle",
+      "args": [
+        "{}"
+      ],
+      "result": "CDwindow-267C199F1725FF6F6ADC185558B259DC",
+      "subLogs": [],
+      "duration": 8
+    },
+    {
+      "commandName": "getWindowHandles",
+      "args": [
+        "{}"
+      ],
+      "result": "[CDwindow-267C199F1725FF6F6ADC185558B259DC, CDwindow-1D82F00009EE4720EB7A10578C267269, CDwindow-B6A7699E4F7F580BC34C6905B6C61637]",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-1D82F00009EE4720EB7A10578C267269}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "switchToWindow",
+      "args": [
+        "{name=CDwindow-B6A7699E4F7F580BC34C6905B6C61637}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=.airlineName, using=css selector}"
+      ],
+      "result": "id: 0.3514042950664775-1",
+      "subLogs": [],
+      "duration": 1130
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .airlineName",
+        "{\"id\":\"0.3514042950664775-1\"}"
+      ],
+      "result": "getElementText:Vistara",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=bookButton, using=id}"
+      ],
+      "result": "id: 0.3514042950664775-2",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.id: bookButton",
+        "{\"id\":\"0.3514042950664775-2\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 5231
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Browser Opened",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Clicked on FlightsOnly",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Clicked On Oneway",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Selected Date",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Clicked on Search",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: &lt;true&gt;\n     Actual: was &lt;true&gt;",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "\nExpected: a string containing \"Vistara\"\n     Actual: was \"Vistara\"",
+      "type": "Pass",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

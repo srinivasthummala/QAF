@@ -1,31 +1,31 @@
 package com.orbitz.tests;
 
 
+import java.util.Map;
+
 import org.testng.annotations.Test;
 import com.orbitz.pages.FlightstPageInfo;
 import com.orbitz.pages.SearchResultsFlightsPage;
 import com.orbitz.utils.FlightsPageData;
+import com.qmetry.qaf.automation.testng.dataprovider.QAFDataProvider;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 
 public class FlightsPageTestCase_101 extends WebDriverTestCase {
 
+	@QAFDataProvider(dataFile = "resources/data.csv")
 	@Test
-	public void executionFlightsPage() throws Exception {
+	public void executionFlightsPage(Map<String, String> data) throws Exception {
 
 		FlightstPageInfo flights = new FlightstPageInfo();
 		flights.launch();
-		//flights.clickOnFlightsButton();
 		flights.clickOnFlightsOnlyButton();
 		flights.clickOnOneWay();
-		//flights.clickOnFlightOrigin();
-		//flights.clickOnFlightDestination();
-		FlightsPageData data = new FlightsPageData();
-		data.dataForFlightsOriginDestination();
+		flights.setFlightOrigin(data.get("source"));
+		flights.setFlightDestination(data.get("destination"));
 		flights.selectDate();
 		flights.clickOnSearchButton();
 		SearchResultsFlightsPage resultPage = new SearchResultsFlightsPage();
 		resultPage.waitForPageToLoad();
-		//resultPage.verifyResults();
 		resultPage.selectFlightByIndex(0);
 
 	}

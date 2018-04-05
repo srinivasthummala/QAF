@@ -2,6 +2,26 @@
   "reports": [
     {
       "name": "QAS Demo",
+      "dir": "test-results/05_Apr_2018_09_27_AM/json",
+      "startTime": 1522920467302
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/05_Apr_2018_09_15_AM/json",
+      "startTime": 1522919731020
+    },
+    {
+      "name": "QAS Demo",
+      "dir": "test-results/05_Apr_2018_09_02_AM/json",
+      "startTime": 1522918951398
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/05_Apr_2018_06_54_AM/json",
+      "startTime": 1522918317049
+    },
+    {
+      "name": "QAS Demo",
       "dir": "test-results/05_Apr_2018_07_39_AM/json",
       "startTime": 1522913968974
     }

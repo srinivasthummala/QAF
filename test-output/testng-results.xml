@@ -1,566 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Opned browser]]>
-    </line>
-    <line>
-      <![CDATA[Clciked On flights only]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on One Way]]>
-    </line>
-    <line>
-      <![CDATA[Entered Origin]]>
-    </line>
-    <line>
-      <![CDATA[Entered Destination]]>
-    </line>
-    <line>
-      <![CDATA[Selected Date]]>
-    </line>
-    <line>
-      <![CDATA[Clciked On search]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$49]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$49]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$49]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$49]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$49]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$49]]>
-    </line>
-    <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When when the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '04/04/2018' into 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'css.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Then verify search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;78&gt; was greater than &lt;0&gt; <a href="../img/testOrbitz_h1sqok8m86k9443.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
-    </line>
-    <line>
-      <![CDATA[Opned browser]]>
-    </line>
-    <line>
-      <![CDATA[Clciked On flights only]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on One Way]]>
-    </line>
-    <line>
-      <![CDATA[Entered Origin]]>
-    </line>
-    <line>
-      <![CDATA[Entered Destination]]>
-    </line>
-    <line>
-      <![CDATA[Selected Date]]>
-    </line>
-    <line>
-      <![CDATA[Clciked On search]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$89]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$89]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$89]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$89]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$89]]>
-    </line>
-    <line>
-      <![CDATA[FlightName:Air India]]>
-    </line>
-    <line>
-      <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-    </line>
-    <line>
-      <![CDATA[FlightPrice:$89]]>
-    </line>
-    <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When when the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Pune' and 'Delhi'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '04/04/2018' into 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'css.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Then verify search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;49&gt; was greater than &lt;0&gt; <a href="../img/testOrbitz_hauzt0jydxq6444.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Browser Opened</div><div  class="info"><span class="info-label">I </span>Clicked on FlightsOnly</div><div  class="info"><span class="info-label">I </span>Clicked On Oneway</div><div  class="info"><span class="info-label">I </span>Selected Date</div><div  class="info"><span class="info-label">I </span>Clicked on Search</div><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vistara"
+     Actual: was "Vistara"</div></div>]]>
     </line>
   </reporter-output>
-  <suite name="QAS Demo" duration-ms="42306" started-at="2018-04-02T09:03:52Z" finished-at="2018-04-02T09:04:35Z">
+  <suite name="Default suite" duration-ms="57393" started-at="2018-04-05T08:51:57Z" finished-at="2018-04-05T08:52:54Z">
     <groups>
-      <group name="P1">
-        <method signature="scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="testOrbitz" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
-      </group> <!-- P1 -->
-      <group name="P2">
-        <method signature="scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="testOrbitz" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
-      </group> <!-- P2 -->
-      <group name="SMOKE">
-        <method signature="scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" name="testOrbitz" class="com.qmetry.qaf.automation.step.client.DataDrivenScenario"/>
-      </group> <!-- SMOKE -->
     </groups>
-    <test name="BDD Test" duration-ms="42306" started-at="2018-04-02T09:03:52Z" finished-at="2018-04-02T09:04:35Z">
-      <class name="com.qmetry.qaf.automation.step.client.DataDrivenScenario">
-        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupSuit" is-config="true" duration-ms="20" started-at="2018-04-02T14:33:52Z" finished-at="2018-04-02T14:33:52Z">
+    <test name="Default test" duration-ms="57393" started-at="2018-04-05T08:51:57Z" finished-at="2018-04-05T08:52:54Z">
+      <class name="com.orbitz.tests.FlightsPageTestCase_101">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="setupSuit" is-config="true" duration-ms="16" started-at="2018-04-05T14:21:57Z" finished-at="2018-04-05T14:21:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuit -->
-        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupTest" is-config="true" duration-ms="1" started-at="2018-04-02T14:33:52Z" finished-at="2018-04-02T14:33:52Z">
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="setupTest" is-config="true" duration-ms="0" started-at="2018-04-05T14:21:57Z" finished-at="2018-04-05T14:21:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setup" is-config="true" duration-ms="0" started-at="2018-04-02T14:33:52Z" finished-at="2018-04-02T14:33:52Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="setup" is-config="true" duration-ms="0" started-at="2018-04-05T14:21:57Z" finished-at="2018-04-05T14:21:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupMethod" is-config="true" duration-ms="5" started-at="2018-04-02T14:33:52Z" finished-at="2018-04-02T14:33:52Z">
+        <test-method status="PASS" signature="executionFlightsPage(java.util.Map)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="executionFlightsPage" duration-ms="57233" started-at="2018-04-05T14:21:57Z" finished-at="2018-04-05T14:22:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
+                <![CDATA[{destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Browser Opened</div><div  class="info"><span class="info-label">I </span>Clicked on FlightsOnly</div><div  class="info"><span class="info-label">I </span>Clicked On Oneway</div><div  class="info"><span class="info-label">I </span>Selected Date</div><div  class="info"><span class="info-label">I </span>Clicked on Search</div><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vistara"
+     Actual: was "Vistara"</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- executionFlightsPage -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-04-05T14:21:57Z" finished-at="2018-04-05T14:21:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.orbitz.tests.FlightsPageTestCase_101.executionFlightsPage(java.util.Map) throws java.lang.Exception]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupMethod -->
-        <test-method name="testOrbitz" test-instance-name="testOrbitz" signature="testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="26601" finished-at="2018-04-02T14:34:19Z" started-at="2018-04-02T14:33:52Z" data-provider="scenariodp" description="end to end">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-04-05T14:22:54Z" finished-at="2018-04-05T14:22:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opned browser]]>
-            </line>
-            <line>
-              <![CDATA[Clciked On flights only]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on One Way]]>
-            </line>
-            <line>
-              <![CDATA[Entered Origin]]>
-            </line>
-            <line>
-              <![CDATA[Entered Destination]]>
-            </line>
-            <line>
-              <![CDATA[Selected Date]]>
-            </line>
-            <line>
-              <![CDATA[Clciked On search]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$49]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$49]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$49]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$49]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$49]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-HYD -
-Arrival airport:
-BOM]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$49]]>
-            </line>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When when the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '04/04/2018' into 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'css.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Then verify search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;78&gt; was greater than &lt;0&gt; <a href="../img/testOrbitz_h1sqok8m86k9443.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testOrbitz -->
-        <test-method name="testOrbitz" test-instance-name="testOrbitz" signature="testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" status="PASS" duration-ms="15523" finished-at="2018-04-02T14:34:35Z" started-at="2018-04-02T14:34:19Z" data-provider="scenariodp" description="end to end">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{origin=Pune, destination=Delhi}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Opned browser]]>
-            </line>
-            <line>
-              <![CDATA[Clciked On flights only]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on One Way]]>
-            </line>
-            <line>
-              <![CDATA[Entered Origin]]>
-            </line>
-            <line>
-              <![CDATA[Entered Destination]]>
-            </line>
-            <line>
-              <![CDATA[Selected Date]]>
-            </line>
-            <line>
-              <![CDATA[Clciked On search]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$89]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$89]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$89]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$89]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$89]]>
-            </line>
-            <line>
-              <![CDATA[FlightName:Air India]]>
-            </line>
-            <line>
-              <![CDATA[Flight Origin and Destination:Departure airport:
-PNQ -
-Arrival airport:
-DEL]]>
-            </line>
-            <line>
-              <![CDATA[FlightPrice:$89]]>
-            </line>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When when the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Pune' and 'Delhi'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '04/04/2018' into 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'css.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Then verify search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: a value greater than &lt;0&gt;
-     Actual: &lt;49&gt; was greater than &lt;0&gt; <a href="../img/testOrbitz_hauzt0jydxq6444.png" target="_blank">[View Screenshot]</a> </div></div></div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testOrbitz -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-02T14:34:19Z" finished-at="2018-04-02T14:34:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[[TestResult name=testOrbitz status=SUCCESS method=scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=Opned browser]]]>
+                <![CDATA[[TestResult name=executionFlightsPage status=SUCCESS method=FlightsPageTestCase_101.executionFlightsPage(java.util.Map)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd] output=<div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Browser Opened</div><div  class="info"><span class="info-label">I </span>Clicked on FlightsOnly</div><div  class="info"><span class="info-label">I </span>Clicked On Oneway</div><div  class="info"><span class="info-label">I </span>Selected Date</div><div  class="info"><span class="info-label">I </span>Clicked on Search</div><div  class="pass"><span class="pass-label">P </span>
+Expected: &lt;true&gt;
+     Actual: was &lt;true&gt;</div><div  class="pass"><span class="pass-label">P </span>
+Expected: a string containing "Vistara"
+     Actual: was "Vistara"</div></div>]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="setupMethod" is-config="true" duration-ms="0" started-at="2018-04-02T14:34:19Z" finished-at="2018-04-02T14:34:19Z">
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-05T14:22:54Z" finished-at="2018-04-05T14:22:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map)]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupMethod -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-04-02T14:34:35Z" finished-at="2018-04-02T14:34:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[[TestResult name=testOrbitz status=SUCCESS method=scenarios.test.bdd.testOrbitz( java.util.Map)[pri:1000, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8] output=Opned browser]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-02T14:34:35Z" finished-at="2018-04-02T14:34:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterTest" is-config="true" duration-ms="100" started-at="2018-04-02T14:34:35Z" finished-at="2018-04-02T14:34:35Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="afterTest" is-config="true" duration-ms="100" started-at="2018-04-05T14:22:54Z" finished-at="2018-04-05T14:22:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.DataDrivenScenario@3e8]" test-instance-name="testOrbitz" name="afterSuit" is-config="true" duration-ms="1" started-at="2018-04-02T14:34:35Z" finished-at="2018-04-02T14:34:35Z">
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.orbitz.tests.FlightsPageTestCase_101@229d10bd]" name="afterSuit" is-config="true" duration-ms="0" started-at="2018-04-05T14:22:54Z" finished-at="2018-04-05T14:22:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@292b08d6]]>
+                <![CDATA[org.testng.TestRunner@2a4fb17b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuit -->
-      </class> <!-- com.qmetry.qaf.automation.step.client.DataDrivenScenario -->
-    </test> <!-- BDD Test -->
-  </suite> <!-- QAS Demo -->
+      </class> <!-- com.orbitz.tests.FlightsPageTestCase_101 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

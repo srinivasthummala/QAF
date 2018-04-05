@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-QAS_Demo">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.orbitz.tests.FlightsPageTestCase_101" hash-for-method="executionFlightsPage">executionFlightsPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-QAS_Demo" title="com.orbitz.tests.FlightsPageTestCase_101" hash-for-method="executionFlightsPage({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon})">executionFlightsPage({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -130,9 +130,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="executionFlightsPage">
-                  </a> <!-- executionFlightsPage -->
+                  <a name="executionFlightsPage({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon})">
+                  </a> <!-- executionFlightsPage({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon}) -->
                   <span class="method-name">executionFlightsPage</span>
+                  <span class="parameters">({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -244,11 +245,11 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'executionFlightsPage')
 data.setCell(0, 2, 'com.orbitz.tests.FlightsPageTestCase_101')
-data.setCell(0, 3, 57254);
+data.setCell(0, 3, 58336);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testOrbitz')
 data.setCell(1, 2, 'com.qmetry.qaf.automation.step.client.DataDrivenScenario')
-data.setCell(1, 3, 25205);
+data.setCell(1, 3, 23640);
 window.suiteTableData['QAS_Demo']= { tableData: data, tableDiv: 'times-div-QAS_Demo'}
 return data;
 }
@@ -267,12 +268,9 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">testOrbitz({origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaj...)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Opned browser</span>
-                <span class="reporter-method-output">Clciked On flights only</span>
+                <span class="reporter-method-output"> browser Opned</span>
+                <span class="reporter-method-output">Clciked On flights button from menu buttons</span>
                 <span class="reporter-method-output">Clicked on One Way</span>
-                <span class="reporter-method-output">Entered Origin</span>
-                <span class="reporter-method-output">Entered Destination</span>
-                <span class="reporter-method-output">Selected Date</span>
                 <span class="reporter-method-output">Clciked On search</span>
                 <span class="reporter-method-output">FlightName:Air India</span>
                 <span class="reporter-method-output">Flight Origin and Destination:Departure airport:
@@ -310,24 +308,16 @@ HYD -
 Arrival airport:
 BOM</span>
                 <span class="reporter-method-output">FlightPrice:$61</span>
-                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When when the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>clear 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>sendKeys '04/07/2018' into 'css.flightdeparting.flightspage'</div><div  class="teststeppass"><span class="teststeppass-label">T </span>click on 'css.calendarclosebutton.flightspage'</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Then verify search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="teststeppass"><span class="teststeppass-label">T </span>Given Given command to open broswer</div><div  class="teststeppass"><span class="teststeppass-label">T </span>When when the user is on homepage click on flights</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is on flights page click on one way</div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)'</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>flight origin is set</div><div  class="info"><span class="info-label">I </span>flight destination is set</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And enter departing date for one way booking</div><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Selected Date</div></div><div  class="teststeppass"><span class="teststeppass-label">T </span>And And click on Search</div><div  class="teststeppass"><span class="teststeppass-label">T </span>Then Then verify search results</div><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
 Expected: a value greater than &lt;0&gt;
-     Actual: &lt;62&gt; was greater than &lt;0&gt;</div></div></div></span>
+     Actual: &lt;74&gt; was greater than &lt;0&gt;</div></div></div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">executionFlightsPage</span>
+              <span class="reporter-method-name">executionFlightsPage({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon})</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Browser Opened</span>
-                <span class="reporter-method-output">Clicked on FlightsOnly</span>
-                <span class="reporter-method-output">Clicked On Oneway</span>
-                <span class="reporter-method-output">Entered Origin</span>
-                <span class="reporter-method-output">Entered Destination</span>
-                <span class="reporter-method-output">Selected Date</span>
-                <span class="reporter-method-output">Clicked on Search</span>
-                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
-Expected: &lt;true&gt;
-     Actual: was &lt;true&gt;</div><div  class="pass"><span class="pass-label">P </span>
+                <span class="reporter-method-output">verifying flight based on index</span>
+                <span class="reporter-method-output"><div style="display:block;margin-left:10px;"><div  class="info"><span class="info-label">I </span>Browser Opened</div><div  class="info"><span class="info-label">I </span>Clicked on Flights from menu buttons</div><div  class="info"><span class="info-label">I </span>Clicked On Oneway</div><div  class="info"><span class="info-label">I </span>flight origin is set</div><div  class="info"><span class="info-label">I </span>flight destination is set</div><div  class="info"><span class="info-label">I </span>Selected Date</div><div  class="info"><span class="info-label">I </span>Clicked on Search</div><div  class="pass"><span class="pass-label">P </span>
 Expected: a string containing "Vistara"
      Actual: was "Vistara"</div></div></span>
               </div> <!-- reporter-method-output-div -->
@@ -356,74 +346,74 @@ Expected: a string containing "Vistara"
             <div class="chronological-class">
               <div class="chronological-class-name">com.orbitz.tests.FlightsPageTestCase_101</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">setupSuit(org.testng.TestRunner@6e20b53a)</span>
+                <span class="method-name">setupSuit(org.testng.TestRunner@661972b0)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qmetry.qaf.automation.step.client.DataDrivenScenario</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setupTest(org.testng.TestRunner@158da8e)</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-name">setupTest(org.testng.TestRunner@694abbdc)</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setup(org.testng.TestRunner@158da8e)</span>
+                <span class="method-name">setup(org.testng.TestRunner@694abbdc)</span>
                 <span class="method-start">47 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">setupMethod(public void com.qmetry.qaf.automation.step.client.DataDrivenScenario.scenario(java.util.Map), org.te...)</span>
-                <span class="method-start">47 ms</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testOrbitz({origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaj...)</span>
-                <span class="method-start">62 ms</span>
+                <span class="method-start">63 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@158da8e, [TestResult name=testOrbitz status=SUCCESS method=scenarios.test.bdd....)</span>
-                <span class="method-start">25290 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@694abbdc, [TestResult name=testOrbitz status=SUCCESS method=scenarios.test.bdd...)</span>
+                <span class="method-start">23722 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass(org.testng.TestRunner@158da8e)</span>
-                <span class="method-start">25296 ms</span>
+                <span class="method-name">afterClass(org.testng.TestRunner@694abbdc)</span>
+                <span class="method-start">23723 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest(org.testng.TestRunner@158da8e)</span>
-                <span class="method-start">25299 ms</span>
+                <span class="method-name">afterTest(org.testng.TestRunner@694abbdc)</span>
+                <span class="method-start">23725 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.orbitz.tests.FlightsPageTestCase_101</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setupTest(org.testng.TestRunner@6e20b53a)</span>
-                <span class="method-start">25513 ms</span>
+                <span class="method-name">setupTest(org.testng.TestRunner@661972b0)</span>
+                <span class="method-start">23935 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">setup(org.testng.TestRunner@6e20b53a)</span>
-                <span class="method-start">25513 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@661972b0)</span>
+                <span class="method-start">23935 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">setupMethod(public void com.orbitz.tests.FlightsPageTestCase_101.executionFlightsPage() throws java.lang.Excepti...)</span>
-                <span class="method-start">25513 ms</span>
+                <span class="method-name">setupMethod(public void com.orbitz.tests.FlightsPageTestCase_101.executionFlightsPage(java.util.Map) throws java...)</span>
+                <span class="method-start">23935 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">executionFlightsPage</span>
-                <span class="method-start">25513 ms</span>
+                <span class="method-name">executionFlightsPage({destination=Delhi India (DEL-Indira Gandhi Intl., source=Pune India (PNQ-Lohegaon})</span>
+                <span class="method-start">23935 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">afterMethod(org.testng.TestRunner@6e20b53a, [TestResult name=executionFlightsPage status=SUCCESS method=FlightsP...)</span>
-                <span class="method-start">82784 ms</span>
+                <span class="method-name">afterMethod(org.testng.TestRunner@661972b0, [TestResult name=executionFlightsPage status=SUCCESS method=FlightsP...)</span>
+                <span class="method-start">82284 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
-                <span class="method-name">afterClass(org.testng.TestRunner@6e20b53a)</span>
-                <span class="method-start">82784 ms</span>
+                <span class="method-name">afterClass(org.testng.TestRunner@661972b0)</span>
+                <span class="method-start">82284 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest(org.testng.TestRunner@6e20b53a)</span>
-                <span class="method-start">82785 ms</span>
+                <span class="method-name">afterTest(org.testng.TestRunner@661972b0)</span>
+                <span class="method-start">82285 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
-                <span class="method-name">afterSuit(org.testng.TestRunner@6e20b53a)</span>
-                <span class="method-start">82923 ms</span>
+                <span class="method-name">afterSuit(org.testng.TestRunner@661972b0)</span>
+                <span class="method-start">82408 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

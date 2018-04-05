@@ -48,21 +48,13 @@ public class SearchResultsFlightsPage extends WebDriverBaseTestPage<WebDriverTes
 	private List<FlightBookingComponentClass> xpathFlightsearchresultpage;
 
 	public List<FlightBookingComponentClass> getXpathFlightsearchresultpage() {
-
 		return xpathFlightsearchresultpage;
 	}
 
 	public void verifyResults() {
-
-		Validator.verifyThat(getXpathFlightsearchresultpage().size(),
-				Matchers.greaterThan(0));
-		int size = xpathFlightsearchresultpage.size();
-		System.out.println("Total Flights shown:" + size);
-		System.out.println("Validates greater then zero");
+		Validator.verifyThat(getXpathFlightsearchresultpage().size(),Matchers.greaterThan(0));
 		for (FlightBookingComponentClass results : xpathFlightsearchresultpage) {
-			System.out.println("test");
 			if (i < 6) {
-				System.out.println("test1");
 				Reporter.log("FlightName:" + results.getCssFlightname().getText());
 				Reporter.log("Flight Origin and Destination:"
 						+ results.getXpathFlightOriginDestinationFlightsPage().getText());
@@ -76,23 +68,14 @@ public class SearchResultsFlightsPage extends WebDriverBaseTestPage<WebDriverTes
 		}
 	}
 
-	// Validator.verifyThat(
-	// results.getXpathFlightOriginDestinationFlightsPage().getText(),
-	// Matchers.containsString("HYD -)
+	
 
 	public void selectFlightByIndex(int index) {
-
+		Reporter.log("verifying flight based on index");
 		FlightsBean bean = new FlightsBean();
-		bean.setFlightName(
-				getXpathFlightsearchresultpage().get(index).getCssFlightname().getText());
-		bean.setOriDes(getXpathFlightsearchresultpage().get(index)
-				.getXpathFlightOriginDestinationFlightsPage().getText());
-		bean.setPrice(getXpathFlightsearchresultpage().get(index)
-				.getCssFlightpriceSearchresultpage().getText());
-		/*
-		 * ConfigurationManager.getBundle().setProperty("bean.key", bean);
-		 * (bean)ConfigurationManager.getBundle().getProperties("bean.key");
-		 */
+		bean.setFlightName(getXpathFlightsearchresultpage().get(index).getCssFlightname().getText());
+		bean.setOriDes(getXpathFlightsearchresultpage().get(index).getXpathFlightOriginDestinationFlightsPage().getText());
+		bean.setPrice(getXpathFlightsearchresultpage().get(index).getCssFlightpriceSearchresultpage().getText());
 		bean.info();
 		cssSelectButtonResultsPage.click();
 		try {
@@ -100,11 +83,8 @@ public class SearchResultsFlightsPage extends WebDriverBaseTestPage<WebDriverTes
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
 		FlightBookingWindowHandle.windowHandle();
-		Validator.verifyThat(true, Matchers.equalTo(true));
-		Validator.verifyThat(bean.getFlightName(),
-				Matchers.containsString(getCssFlightNameSearchedFlight().getText()));
+		Validator.verifyThat(bean.getFlightName(), Matchers.containsString(getCssFlightNameSearchedFlight().getText()));
 		idContinueButtonResultsPage.click();
 
 	}

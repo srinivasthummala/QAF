@@ -4,13 +4,13 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import org.testng.Reporter;
 
 import com.qmetry.qaf.automation.ui.WebDriverBaseTestPage;
 import com.qmetry.qaf.automation.ui.annotations.FindBy;
 import com.qmetry.qaf.automation.ui.api.PageLocator;
 import com.qmetry.qaf.automation.ui.api.WebDriverTestPage;
 import com.qmetry.qaf.automation.ui.webdriver.QAFWebElement;
+import com.qmetry.qaf.automation.util.Reporter;
 
 public class FlightstPageInfo extends WebDriverBaseTestPage<WebDriverTestPage> {
 
@@ -101,7 +101,7 @@ public class FlightstPageInfo extends WebDriverBaseTestPage<WebDriverTestPage> {
 	public void clickOnFlightsOnlyButton() {
 
 		idFlightsonlyFlightspage.click();
-		Reporter.log("Clicked on FlightsOnly");
+		Reporter.log("Clicked on Flights from menu buttons");
 	}
 
 	public void clickOnOneWay() {
@@ -110,28 +110,16 @@ public class FlightstPageInfo extends WebDriverBaseTestPage<WebDriverTestPage> {
 		Reporter.log("Clicked On Oneway");
 	}
 
-	public void clickOnFlightOrigin() throws Exception {
- System.out.println("Test");
-		idFlightsoriginFlightspage.clear();
-		idFlightdepartingFlightspage.click();
-		System.out.println("Clicked");
-		idFlightsoriginFlightspage.sendKeys("Pune");
-		/*Thread.sleep(1000);
-		idFlightsoriginFlightspage.sendKeys(Keys.ARROW_DOWN);
-		idFlightsoriginFlightspage.sendKeys(Keys.ENTER);
-		Reporter.log("Entered Origin");*/
+	public void setFlightOrigin(String source) {
+ 		idFlightsoriginFlightspage.sendKeys(source);
+ 		Reporter.log("flight origin is set");
 	}
-	public void clickOnFlightDestination() throws Exception {
+	public void setFlightDestination(String dest) {
+		idFlightsdestinationFlightspage.sendKeys(dest);
+ 		Reporter.log("flight destination is set");
 
-		idFlightsdestinationFlightspage.clear();
-		
-		idFlightsdestinationFlightspage.sendKeys("Delhi");
-		/*Thread.sleep(1000);
-		idFlightsdestinationFlightspage.sendKeys(Keys.ARROW_DOWN);
-		idFlightsdestinationFlightspage.sendKeys(Keys.ENTER);
-		Reporter.log("Entered Destination");*/
 	}
-	public void selectDate() throws InterruptedException {
+	public void selectDate() {
 
 		/* Selecting departing date from calendar */
 		System.out.println("Entering select date");
@@ -143,9 +131,8 @@ public class FlightstPageInfo extends WebDriverBaseTestPage<WebDriverTestPage> {
 		date = calendar.getTime();
 		String strDepartingDate = format.format(date);
 		idFlightdepartingFlightspage.click();
-		idFlightdepartingFlightspage.clear();
+		//idFlightdepartingFlightspage.clear();
 		idFlightdepartingFlightspage.sendKeys(strDepartingDate);
-		System.out.println("Selected departing date");
 		xpathCalendarclosebuttonFlightspage.click();
 		Reporter.log("Selected Date");
 	}

@@ -1,0 +1,25 @@
+14:45:30 scenario.file.loc[Ljava.lang.String;@7f77e91b
+14:45:30 loading BDD file: C:\Users\srinivas.thummala\QASWorkspace\week3assignrepo\scenarios\test.bdd
+14:45:30 total test found: 1
+14:45:31 
+
+Executing scenario: testOrbitz - end to end
+14:45:31 Test Data{origin=Hyderabad, India (HYD-Rajiv Gandhi Intl.), destination=Mumbai, India (BOM-Chhatrapati Shivaji Intl.)}
+14:45:31 pkg: com.qmetry.qaf.automation.step
+14:45:31 pkg: com.orbitz.steps
+14:45:31 Found duplicate step to load [] with [lower] prority then []
+14:45:31 Invoking Teststep: Given Given command to open broswer
+14:45:41 Completed Teststep: Given Given command to open broswer
+14:45:41 Invoking Teststep: When when the user is on homepage click on flights
+14:45:41 Completed Teststep: When when the user is on homepage click on flights
+14:45:41 Invoking Teststep: And And when the user is on flights page click on one way
+14:45:42 Completed Teststep: And And when the user is on flights page click on one way
+14:45:42 Invoking Teststep: And And when the user is booking one way enter '${origin}' and '${destination}' with arguments: [${origin}, ${destination}]
+14:45:45 Completed Teststep: And And when the user is booking one way enter 'Hyderabad, India (HYD-Rajiv Gandhi Intl.)' and 'Mumbai, India (BOM-Chhatrapati Shivaji Intl.)' with arguments: [${origin}, ${destination}]
+14:45:45 Invoking Teststep: And And enter departing date for one way booking
+14:45:46 Completed Teststep: And And enter departing date for one way booking
+14:45:46 Invoking Teststep: And And click on Search
+14:45:56 Completed Teststep: And And click on Search
+14:45:56 Invoking Teststep: Then Then verify search results
+14:45:57 Completed Teststep: Then Then verify search results
+14:45:57 Competed scenario: testOrbitz with status SUCESS
